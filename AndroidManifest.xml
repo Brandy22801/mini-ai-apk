@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Mini AI"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AIPlugin.Base">
+
+        <activity android:name=".PluginActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.miniai.plugin.START" />
+                <action android:name="com.miniai.plugin.EVENT" />
+                <action android:name="com.miniai.plugin.JSON_EVENT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".JasonViewActivity"
+            android:label="AI Workspace"
+            android:exported="true"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.miniai.plugin.EVENT" />
+                <action android:name="com.miniai.plugin.JSON_EVENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".MiniAIProvider"
+            android:authorities="com.miniai.plugin.provider"
+            android:exported="true"
+            android:grantUriPermissions="true" />
+
+        <receiver
+            android:name=".MiniAIReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.miniai.plugin.EVENT" />
+                <action android:name="com.miniai.plugin.JSON_EVENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".PermissionsAndServicesManager"
+            android:label="Dynamic Plugin UI"
+            android:exported="true"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.miniai.plugin.ACTION_SHOW_DYNAMIC_UI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".OverlayActivity"
+            android:label="Overlay"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:exported="true"
+            android:resizeableActivity="true"
+            android:excludeFromRecents="true" />
+
+        <service
+            android:name=".PluginBackgroundService"
+            android:exported="true"
+            android:foregroundServiceType="dataSync|microphone|location|connectedDevice" />
+
+        <service
+            android:name=".FutureModuleService"
+            android:exported="true" />
+
+        <receiver
+            android:name=".FutureModuleReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.miniai.module.EVENT" />
+                <action android:name="com.miniai.module.BOOT" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".FutureModuleProvider"
+            android:authorities="com.miniai.plugin.futuremoduleprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+
+        <activity
+            android:name=".DynamicEntryActivity"
+            android:label="Dynamic Entry"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="ai.plugin.host_compatible" android:value="true" />
+    </application>
+</manifest>
