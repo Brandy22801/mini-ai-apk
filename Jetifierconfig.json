@@ -1,0 +1,17 @@
+{
+    "rules": [
+        {
+            "from": "android/support/v4/app/Fragment",
+            "to": "androidx/fragment/app/Fragment"
+        },
+        {
+            "from": "com/miniai/host/MyOldClass",
+            "to": "com/miniai/host/MyNewClass"
+        },
+      
+        {
+            "from": "android/support/v7/app/AppCompatActivity",
+            "to": "androidx/appcompat/app/AppCompatActivity"
+        }
+    ]
+}
