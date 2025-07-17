@@ -1,0 +1,42 @@
+<resources>
+    <!-- Base theme for all plugin/AI modules: highly extensible, no action bar, supports overlays and system UI -->
+    <style name="Theme.AIPlugin.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:colorAccent">@android:color/holo_orange_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!-- Add more system/plugin/AI extensibility here -->
+    </style>
+
+    <!-- Transparent overlay for AI, plugin, or system floating UI -->
+    <style name="Theme.AIPlugin.Overlay.Transparent" parent="Theme.AIPlugin.Base">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!-- Dialog theme for AI/plugin popups, with system and plugin extensibility -->
+    <style name="Theme.AIPlugin.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorAccent">@android:color/holo_orange_light</item>
+        <!-- Add more dialog/plugin/AI extensibility here -->
+    </style>
+
+    <!-- System/Plugin/AI module theme for future extensibility -->
+    <style name="Theme.AIPlugin.Module" parent="Theme.AIPlugin.Base">
+        <!-- Add plugin/module/AI-specific colors, fonts, overlays, etc. here -->
+    </style>
+
+    <!-- Example: Add more unique, AI/plugin-specific overlays, popups, or system UIs below -->
+    <!-- <style name="Theme.AIPlugin.FutureOverlay" parent="Theme.AIPlugin.Overlay.Transparent">...</style> -->
+    <!-- <style name="Theme.AIPlugin.SystemAlert" parent="Theme.AIPlugin.Base">...</style> -->
+    <!-- <style name="Theme.AIPlugin.PluginPanel" parent="Theme.AIPlugin.Module">...</style> -->
+</resources>
