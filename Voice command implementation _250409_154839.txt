@@ -1,0 +1,162 @@
+{
+  "voice_recognition": {
+    "enabled": true,
+    "always_listening": false,
+    "trigger_phrases": [
+      "hey minnie",
+      "hi minnie",
+      "okay minnie",
+      "minnie"
+    ],
+    "confidence_threshold": 0.75,
+    "noise_tolerance": 0.3,
+    "background_filtering": true
+  },
+  "command_processing": {
+    "parser": {
+      "pattern_matching": true,
+      "intent_detection": true,
+      "contextual_awareness": true,
+      "memory_integration": true
+    },
+    "recognition_parameters": {
+      "command_confidence_threshold": 0.65,
+      "context_weighting": 0.4,
+      "memory_influence": 0.3,
+      "fallback_threshold": 0.5
+    },
+    "command_categories": [
+      "device_control",
+      "app_interaction",
+      "content_creation",
+      "information_request",
+      "setting_adjustment",
+      "multi_step_tasks"
+    ],
+    "action_confirmation": {
+      "enabled": true,
+      "dangerous_command_confirmation": true,
+      "confirmation_timeout": 15,
+      "silent_execution_for_common": true
+    }
+  },
+  "command_patterns": {
+    "device_control": [
+      {
+        "pattern": "turn (on|off) {device}",
+        "action": "toggleDevice",
+        "parameters": ["state", "device"],
+        "examples": ["turn on wifi", "turn off bluetooth"]
+      },
+      {
+        "pattern": "open {app}",
+        "action": "openApplication",
+        "parameters": ["app"],
+        "examples": ["open camera", "open messages"]
+      },
+      {
+        "pattern": "close {app}",
+        "action": "closeApplication",
+        "parameters": ["app"],
+        "examples": ["close camera", "close messages"]
+      }
+    ],
+    "content_creation": [
+      {
+        "pattern": "(take|capture) (a|) (photo|picture|selfie)",
+        "action": "captureMedia",
+        "parameters": ["type"],
+        "examples": ["take a photo", "capture a selfie"]
+      },
+      {
+        "pattern": "(start|stop|pause) (recording|video)",
+        "action": "controlRecording",
+        "parameters": ["command"],
+        "examples": ["start recording", "stop video"]
+      },
+      {
+        "pattern": "generate (a|) {content_type} (about|for|on) {topic}",
+        "action": "generateContent",
+        "parameters": ["content_type", "topic"],
+        "examples": ["generate a caption for my beach photo", "generate a post about hiking"]
+      }
+    ],
+    "information_request": [
+      {
+        "pattern": "what('s| is) {query}",
+        "action": "provideInformation",
+        "parameters": ["query"],
+        "examples": ["what's the time", "what is the weather"]
+      },
+      {
+        "pattern": "how (do|can) (i|you|we) {action}",
+        "action": "provideInstruction",
+        "parameters": ["action"],
+        "examples": ["how do I edit a video", "how can I fix my car"]
+      },
+      {
+        "pattern": "where (is|are) (the|my|) {item}",
+        "action": "locateItem",
+        "parameters": ["item"],
+        "examples": ["where is my phone", "where are my photos"]
+      }
+    ]
+  },
+  "device_integration": {
+    "permitted_functions": [
+      "camera_control",
+      "audio_control",
+      "app_launching",
+      "media_playback",
+      "system_settings",
+      "notifications"
+    ],
+    "safety_measures": {
+      "restricted_functions": [
+        "payments",
+        "sensitive_data_access",
+        "account_modifications",
+        "system_critical_changes"
+      ],
+      "permission_required": [
+        "contact_access",
+        "location_access",
+        "camera_access",
+        "microphone_access"
+      ]
+    },
+    "execution_mode": "ghost_process",
+    "feedback_mechanism": "unobtrusive_notifications"
+  },
+  "response_generation": {
+    "formats": {
+      "confirmation": {
+        "style": "brief",
+        "include_details": true,
+        "personalized": true
+      },
+      "failure": {
+        "style": "helpful",
+        "include_reason": true,
+        "include_alternatives": true
+      },
+      "information": {
+        "style": "conversational",
+        "detail_level": "adaptive",
+        "include_sources": false
+      }
+    },
+    "tone_parameters": {
+      "formality": 0.5,
+      "friendliness": 0.8,
+      "conciseness": 0.7,
+      "helpfulness": 0.9
+    },
+    "context_awareness": {
+      "remember_recent_commands": true,
+      "adapt_to_user_preferences": true,
+      "time_awareness": true,
+      "location_awareness": false
+    }
+  }
+}

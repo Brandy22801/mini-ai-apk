@@ -1,0 +1,65 @@
+# FIRST AID SYNONYMS AND ALTERNATIVES
+# Variations and alternatives for first aid terminology
+
+## Emergency Terms
+"emergency" → Synonyms: crisis, urgent situation; Action: immediate response needed; Emoji: 🚨
+"911" → Synonyms: emergency number, emergency services; International: varies by country; Emoji: ☎️
+"ambulance" → Synonyms: emergency vehicle, EMS transport; Function: medical transport; Emoji: 🚑
+"paramedic" → Synonyms: EMT, emergency medical technician; Role: pre-hospital care; Emoji: 👨‍⚕️
+"first responder" → Synonyms: emergency personnel; Types: paramedic, firefighter, police; Emoji: 🚒
+
+## Basic First Aid Actions
+"assess" → Synonyms: evaluate, check, examine; Context: determine severity; Emoji: 🔍
+"monitor" → Synonyms: observe, watch, track; Context: ongoing evaluation; Emoji: 👁️
+"treat" → Synonyms: care for, address, manage; Context: provide aid; Emoji: 🩹
+"stabilize" → Synonyms: secure, steady; Context: prevent worsening; Emoji: ✋
+"bandage" → Synonyms: dress, wrap, cover; Context: wound care; Emoji: 🩹
+
+## Vital Signs
+"pulse" → Synonyms: heartbeat, heart rate; Location: wrist, neck; Normal: 60-100 bpm; Emoji: ❤️
+"breathing" → Synonyms: respiration, ventilation; Normal: 12-20 per minute; Emoji: 💨
+"blood pressure" → Abbreviation: BP; Normal: around 120/80; Context: circulatory health; Emoji: 💓
+"consciousness" → Synonyms: awareness, alertness; Scale: alert to unresponsive; Emoji: 👁️
+"heart rate" → Synonyms: pulse rate, cardiac rate; Normal: 60-100 bpm; Emoji: ❤️
+
+## Injuries
+"cut" → Synonyms: laceration, incision; Treatment: clean, bandage; Emoji: ✂️
+"burn" → Types: first, second, third degree; Causes: heat, chemical, electrical; Emoji: 🔥
+"fracture" → Synonyms: broken bone; Types: simple, compound; Treatment: immobilize; Emoji: 🦴
+"sprain" → Affected: ligament; Location: joints; Treatment: RICE; Emoji: 🦵
+"bruise" → Synonyms: contusion; Appearance: discoloration; Treatment: ice; Emoji: 🟣
+
+## Medical Conditions
+"shock" → Types: anaphylactic, hypovolemic; Signs: pale, clammy skin; Position: lying, legs elevated; Emoji: 😱
+"choking" → Signs: inability to speak, blue lips; Treatment: Heimlich maneuver; Emoji: 😰
+"bleeding" → Types: arterial, venous, capillary; Treatment: direct pressure; Emoji: 🩸
+"stroke" → Mnemonic: FAST (Face, Arms, Speech, Time); Signs: facial drooping; Emoji: 🧠
+"heart attack" → Synonyms: myocardial infarction; Signs: chest pain, shortness of breath; Emoji: 💔
+
+## First Aid Supplies
+"bandage" → Types: adhesive, gauze, elastic; Use: cover wounds; Emoji: 🩹
+"gauze" → Types: sterile, non-stick; Use: wound coverage; Related: dressing
+"splint" → Purpose: immobilize injury; Types: rigid, flexible; Used for: fractures, sprains
+"antiseptic" → Examples: alcohol, iodine; Purpose: prevent infection; Emoji: 🧴
+"ice pack" → Purpose: reduce swelling; Alternative: frozen vegetables; Emoji: 🧊
+
+## Anatomical Areas
+"head" → Contains: brain, sensory organs; Assessment: check for injury; Emoji: 👤
+"chest" → Contains: heart, lungs; Assessment: breathing, pain; Emoji: 👕
+"abdomen" → Contains: digestive organs; Assessment: pain, rigidity; Location: between chest and pelvis
+"neck" → Contains: spine, airway; Caution: stabilize if injured; Emoji: 🧣
+"back" → Contains: spine; Assessment: pain, mobility; Caution: spinal injuries; Emoji: 👤
+
+## Assessment Terms
+"responsive" → Signs: awake, alert; AVPU: A (alert); Opposite: unresponsive; Emoji: 👁️
+"unresponsive" → Signs: unconscious; AVPU: U (unresponsive); Action: check ABCs; Emoji: 😴
+"stable" → Synonyms: steady, consistent; Vitals: not changing; Emoji: ⚖️
+"unstable" → Synonyms: deteriorating; Vitals: changing negatively; Action: immediate help; Emoji: 📉
+"painful" → Synonyms: sore, hurting; Scale: mild to severe; Assessment: location, severity; Emoji: 😣
+
+## First Aid Techniques
+"CPR" → Expansion: Cardiopulmonary Resuscitation; Components: compressions, breathing; Emoji: ❤️
+"rescue breathing" → Synonyms: mouth-to-mouth; When: not breathing but has pulse; Emoji: 💨
+"Heimlich maneuver" → Synonyms: abdominal thrusts; Purpose: clear airway obstruction; Emoji: 👐
+"recovery position" → Purpose: maintain open airway; When: unconscious but breathing; Emoji: 👤
+"RICE" → Expansion: Rest, Ice, Compression, Elevation; For: sprains, strains; Emoji: 🧊

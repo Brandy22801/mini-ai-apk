@@ -1,0 +1,65 @@
+# VIDEO TERMS SYNONYMS AND ALTERNATIVES
+# Variations and alternatives for video technical terminology
+
+## Video Formats
+"MP4" → Synonyms: MPEG-4 Part 14; Common usage: standard video format; Related: H.264, H.265
+"MOV" → Synonyms: QuickTime movie; Common usage: Apple video format; Related: QuickTime
+"AVI" → Expansion: Audio Video Interleave; Common usage: Windows video format; Related: Microsoft
+"MKV" → Expansion: Matroska Video; Common usage: open-source container format; Related: high-quality video
+"WebM" → Common usage: web video format; Related: YouTube, online video; Developed by: Google
+
+## Video Properties
+"resolution" → Synonyms: definition, clarity, pixel count; Slang: res; Related: 1080p, 4K; Emoji: 🔍
+"aspect ratio" → Synonyms: screen ratio, display ratio; Common usage: 16:9, 9:16; Related: widescreen, vertical
+"frame rate" → Synonyms: FPS, frames per second; Slang: smoothness; Related: 24fps, 30fps, 60fps; Emoji: 🎞️
+"bitrate" → Synonyms: data rate, transfer rate; Slang: quality setting; Related: Mbps, compression; Emoji: 📊
+"codec" → Expansion: coder-decoder; Synonyms: compression format; Related: H.264, H.265, VP9; Emoji: 🧩
+
+## Common Resolutions
+"480p" → Synonyms: SD, standard definition; Common usage: DVD quality; Related: 640x480
+"720p" → Synonyms: HD, high definition; Common usage: basic HD; Related: 1280x720
+"1080p" → Synonyms: Full HD, FHD; Common usage: standard high definition; Related: 1920x1080
+"4K" → Synonyms: Ultra HD, UHD; Common usage: high-end resolution; Related: 3840x2160; Slang: crispy
+"8K" → Synonyms: Super Hi-Vision; Common usage: highest consumer resolution; Related: 7680x4320
+
+## Aspect Ratios
+"16:9" → Common usage: widescreen; Related: landscape, horizontal; Used for: most TVs, monitors
+"9:16" → Common usage: vertical video; Related: portrait, smartphone; Used for: TikTok, Instagram Stories
+"4:3" → Common usage: standard; Related: old TV, classic; Used for: older content
+"1:1" → Common usage: square; Related: Instagram posts; Used for: social media; Emoji: ⏹️
+"21:9" → Common usage: ultrawide; Related: cinematic, movies; Used for: films, gaming
+
+## Video Specifications
+"format" → Synonyms: file type, container; Related: MP4, MOV; Slang: file format
+"container" → Synonyms: wrapper, package; Related: holds audio and video; Slang: wrapper
+"codec" → Synonyms: encoder, compression method; Related: H.264, HEVC; Slang: video tech
+"profile" → Synonyms: encoding profile, codec profile; Related: baseline, main, high; Slang: quality preset
+"color space" → Synonyms: color model, gamut; Related: sRGB, Adobe RGB, Rec. 709; Slang: color science
+
+## Video Attributes
+"bright" → Synonyms: well-lit, luminous; Antonyms: dark, dim; Related: exposure; Emoji: ☀️
+"blurry" → Synonyms: unfocused, fuzzy; Antonyms: sharp, clear; Slang: soft; Emoji: 🌫️
+"sharp" → Synonyms: clear, crisp; Antonyms: blurry, soft; Slang: crispy; Emoji: 🔪
+"noisy" → Synonyms: grainy, pixelated; Antonyms: clean, smooth; Slang: grainy; Emoji: 📶
+"oversaturated" → Synonyms: too colorful, vibrant; Antonyms: desaturated, muted; Slang: color bomb; Emoji: 🌈
+
+## Technical Abbreviations
+"FPS" → Expansion: frames per second; Related: frame rate, smoothness; Common values: 24, 30, 60
+"Mbps" → Expansion: megabits per second; Related: bitrate, data rate; Context: streaming quality
+"HDR" → Expansion: high dynamic range; Related: contrast, color depth; Slang: pop; Emoji: 🌈
+"VFR" → Expansion: variable frame rate; Related: changing fps, screen recording; Opposite: CFR
+"VBR" → Expansion: variable bit rate; Related: changing quality; Opposite: constant bit rate
+
+## Video Issues
+"stuttering" → Synonyms: choppy, jerky; Slang: laggy; Related: low frame rate; Emoji: 📉
+"buffering" → Synonyms: loading, processing; Slang: spinning wheel; Related: streaming issues; Emoji: ⏳
+"pixelation" → Synonyms: blockiness, squares; Slang: minecraft effect; Related: low bitrate; Emoji: 🔲
+"artifacting" → Synonyms: compression artifacts, distortion; Slang: glitches; Related: low bitrate; Emoji: 👾
+"drop frames" → Synonyms: skipped frames, missing frames; Slang: choppiness; Related: performance issues; Emoji: ⏭️
+
+## Video Equipment
+"camera" → Synonyms: video camera, recording device; Slang: cam; Related: recording; Emoji: 📹
+"smartphone" → Synonyms: mobile phone, cell phone; Slang: phone; Related: mobile video; Emoji: 📱
+"GoPro" → Synonyms: action camera; Related: extreme sports, POV; Slang: action cam
+"gimbal" → Synonyms: stabilizer, steady cam; Related: smooth movement; Slang: steady stick; Emoji: 📱✨
+"tripod" → Synonyms: camera stand, three-legged stand; Related: stability; Slang: sticks; Emoji: 🔱

@@ -1,0 +1,122 @@
+# COOKING AND CULINARY
+# Terminology related to cooking, food preparation, and culinary techniques
+
+## Cooking Methods
+bake
+roast
+fry
+sauté
+boil
+simmer
+steam
+grill
+broil
+poach
+
+## Kitchen Tools
+knife
+cutting board
+pan
+pot
+blender
+mixer
+measuring cup
+measuring spoon
+whisk
+spatula
+
+## Ingredient Categories
+protein
+vegetable
+fruit
+grain
+dairy
+herb
+spice
+oil
+vinegar
+sweetener
+
+## Common Ingredients
+salt
+pepper
+garlic
+onion
+olive oil
+butter
+flour
+sugar
+egg
+milk
+
+## Food Preparation
+chop
+dice
+slice
+mince
+julienne
+grate
+peel
+measure
+mix
+knead
+
+## Cooking Terms
+al dente
+blanch
+caramelize
+deglaze
+emulsify
+fold
+marinate
+reduce
+render
+sear
+
+## Recipe Components
+ingredient
+measurement
+preparation
+cooking time
+temperature
+yield
+serving
+direction
+step
+note
+
+## Meal Types
+breakfast
+lunch
+dinner
+appetizer
+main course
+side dish
+dessert
+snack
+beverage
+soup
+
+## Dietary Terms
+vegetarian
+vegan
+gluten-free
+dairy-free
+low-carb
+keto
+paleo
+organic
+raw
+whole food
+
+## Culinary Emojis
+🍳 (cooking)
+🔪 (knife)
+🥗 (salad)
+🍲 (stew)
+🍞 (bread)
+🥩 (meat)
+🥕 (vegetable)
+🍰 (dessert)
+🥄 (spoon)
+🍽️ (place setting)

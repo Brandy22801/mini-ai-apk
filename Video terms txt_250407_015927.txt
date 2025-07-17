@@ -1,0 +1,122 @@
+# VIDEO TERMS
+# Technical vocabulary related to video formats, specifications, and concepts
+
+## Video Formats
+MP4
+MOV
+AVI
+WMV
+MKV
+WebM
+FLV
+MPEG
+3GP
+M4V
+
+## Video Properties
+resolution
+aspect ratio
+frame rate
+bitrate
+codec
+compression
+duration
+orientation
+size
+quality
+
+## Common Resolutions
+480p
+720p
+1080p
+1440p
+2K
+4K
+8K
+SD
+HD
+UHD
+
+## Aspect Ratios
+16:9
+9:16
+4:3
+1:1
+2.35:1
+21:9
+2.39:1
+3:2
+5:4
+2.40:1
+
+## Video Specifications
+format
+container
+codec
+profile
+level
+pixel format
+color space
+sampling
+bit depth
+dynamic range
+
+## Video Attributes
+bright
+dark
+blurry
+sharp
+high-contrast
+low-contrast
+oversaturated
+undersaturated
+noisy
+clean
+
+## Technical Abbreviations
+FPS (frames per second)
+Mbps (megabits per second)
+GB (gigabyte)
+HDR (high dynamic range)
+VFR (variable frame rate)
+CFR (constant frame rate)
+GOP (group of pictures)
+DCT (discrete cosine transform)
+VBR (variable bit rate)
+CBR (constant bit rate)
+
+## Video Issues
+stuttering
+buffering
+pixelation
+artifacting
+tearing
+drop frames
+lag
+jitter
+interlacing
+ghosting
+
+## Video Equipment
+camera
+smartphone
+GoPro
+drone
+webcam
+camcorder
+DSLR
+gimbal
+tripod
+selfie stick
+
+## Video Emojis
+🎥 (movie camera)
+📹 (video camera)
+📱 (smartphone)
+🎞️ (film frames)
+📺 (television)
+🎬 (clapper board)
+📽️ (film projector)
+🖥️ (desktop computer)
+📸 (camera with flash)
+🎮 (video game)

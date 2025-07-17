@@ -1,0 +1,65 @@
+# PERSONAL FINANCE SYNONYMS AND ALTERNATIVES
+# Variations and alternatives for financial terminology
+
+## Banking Terms
+"account" → Types: checking, savings; Features: balance, transactions; Emoji: 🏦
+"deposit" → Action: add money; Methods: cash, check, direct; Emoji: 💵
+"withdrawal" → Action: remove money; Methods: ATM, teller; Emoji: 💸
+"transfer" → Action: move money; Types: internal, external, wire; Emoji: 🔄
+"balance" → Definition: available funds; Actions: check, maintain; Emoji: ⚖️
+
+## Account Types
+"checking" → Purpose: everyday transactions; Features: debit card, checks; Emoji: 💳
+"savings" → Purpose: store money; Feature: interest earned; Emoji: 🏦
+"retirement" → Types: 401(k), IRA, Roth; Purpose: future security; Emoji: 👴
+"investment" → Types: brokerage, robo-advisor; Purpose: growth; Emoji: 📈
+"credit card" → Purpose: borrowing; Features: revolving credit; Emoji: 💳
+
+## Financial Goals
+"budget" → Synonyms: spending plan; Purpose: track income/expenses; Emoji: 📊
+"saving" → Purpose: future needs; Methods: automatic, manual; Emoji: 🐖
+"investing" → Purpose: growth, income; Timeframe: long-term; Emoji: 📈
+"debt reduction" → Methods: avalanche, snowball; Purpose: financial freedom; Emoji: ⛓️
+"emergency fund" → Purpose: unexpected expenses; Target: 3-6 months expenses; Emoji: 🚨
+
+## Income Sources
+"salary" → Payment: fixed regular; Timeframe: annual; Emoji: 💰
+"wage" → Payment: hourly, daily; Calculation: hours × rate; Emoji: ⏰
+"commission" → Basis: sales, performance; Calculation: percentage; Emoji: 💼
+"dividend" → Source: stocks, funds; Payment: share of profits; Emoji: 💰
+"interest" → Source: savings, bonds; Calculation: percentage; Emoji: 📊
+
+## Expense Categories
+"housing" → Components: rent/mortgage, utilities; Budget: ~30%; Emoji: 🏠
+"transportation" → Components: car payment, fuel, maintenance; Budget: ~15%; Emoji: 🚗
+"food" → Components: groceries, dining out; Budget: ~10-15%; Emoji: 🍎
+"utilities" → Components: electricity, water, internet; Budget: ~10%; Emoji: 💡
+"insurance" → Types: health, auto, home; Purpose: protection; Emoji: 🛡️
+
+## Investment Vehicles
+"stock" → Definition: company ownership; Risk: higher; Return: variable; Emoji: 📈
+"bond" → Definition: debt instrument; Risk: lower; Return: fixed; Emoji: 📃
+"mutual fund" → Features: professionally managed; Composition: multiple securities; Emoji: 📊
+"ETF" → Expansion: Exchange Traded Fund; Features: trades like stock; Emoji: 📊
+"real estate" → Types: residential, commercial; Income: rent, appreciation; Emoji: 🏠
+
+## Financial Terms
+"interest rate" → Application: loans, savings; Expressed as: percentage; Emoji: 📊
+"APR" → Expansion: Annual Percentage Rate; Context: loans, credit; Emoji: 💵
+"principal" → Definition: original amount; Context: loans, investments; Emoji: 💰
+"compound interest" → Effect: interest on interest; Power: exponential growth; Emoji: 📈
+"net worth" → Calculation: assets minus liabilities; Measure: financial health; Emoji: ⚖️
+
+## Tax Terminology
+"income tax" → Levels: federal, state, local; Calculation: progressive; Emoji: 📋
+"deduction" → Effect: reduces taxable income; Types: standard, itemized; Emoji: ➖
+"credit" → Effect: reduces tax owed; Benefit: dollar for dollar; Emoji: 💳
+"filing status" → Options: single, married, head of household; Emoji: 📝
+"refund" → Cause: overpayment; Action: returned by government; Emoji: 💰
+
+## Financial Planning
+"financial plan" → Components: goals, strategies; Timeframe: short/long term; Emoji: 🗺️
+"goal setting" → Process: identify objectives; Criteria: SMART; Emoji: 🎯
+"risk tolerance" → Definition: comfort with volatility; Factors: age, timeline; Emoji: 📊
+"asset allocation" → Purpose: diversification; Components: stocks, bonds, cash; Emoji: 📊
+"retirement planning" → Components: savings, investments; Goal: financial independence; Emoji: 🏖️

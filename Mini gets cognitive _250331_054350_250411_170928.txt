@@ -1,0 +1,541 @@
+{
+    "coverPage": {
+        "cid": "unique_conversation_identifier",
+        "ts": "timestamp_of_conversation_start",
+        "uid": "unique_user_identifier",
+        "summary": "Conversation focused on AI development. JSON framework with Mini AI integration. Nm n v v, ",
+        "sections": ["conv", "algColl", "meta", "evar"]
+    },t,w
+    "conv": {
+        "txt": "user’s_input_text",
+        "mod": "text/voice/image/etc.",
+        "sent": "positive/negative/neutral",
+        "pfc_input": {
+            "priority_retention": 10, 
+            "evaluation_decisregard": 5,
+            "subconscious_disregard": 20,
+            "perspective_proximity_paradox": 1.5nn
+        },
+        "pfc_output": null
+    }, x v
+B zero Czech hhh
+    "ar": {m 
+        "txt": "AI’s-generated_response",
+        "mod": "text/voice/image/etc.",
+        "alg": "[list_of_algorithms_used_for_analysis]",
+        "cm": {
+            "slang_and_abbrehviations": {
+                "lol": {"meaning": "laughing out loud", "related_functions": ["respond_empathically", "generate_caption"], "frequency": 0},
+                "brb": {"meaning": "be right back", "related_functions": ["set_reminder", "adapt_to_user"], "frequency": 0},
+                "idk": {"meaning": "I don’t know", "related_functions": ["answer_question", "resolve_ambiguity"], "frequency": 0},
+                "lit": {"meaning": "exciting or excellent", "related_functions": ["generate_caption", "suggest_hashtags"], "frequency": 0},
+                "fam": {"meaning": "family or friends", "related_functions": ["generate_caption", "write_post"], "frequency": 0},
+                "GOAT": {"meaning": "greatest of all time", "related_functions": ["generate_caption", "suggest_hashtags"], "frequency": 0},
+                "tbh": {"meaning": "to be honest", "related_functions": ["respond_empathically", "write_post"], "frequency": 0},
+                "smh": {"meaning": "shaking my head", "related_functions": ["respond_empathically", "generate_caption"], "frequency": 0},
+                "btw": {"meaning": "by the way", "related_functions": ["answer_question", "understand_context"], "frequency": 0},
+                "like you know": {"meaning": "seeking confirmation or explaining", "related_functions": ["understand_context", "respond_empathically", "resolve_ambiguity"], "frequency": 5},
+                "you know": {"meaning": "seeking confirmation", "related_functions": ["understand_context", "respond_empathically"], "frequency": 3},
+                "um": {"meaning": "hesitation or thinking", "related_functions": ["resolve_ambiguity", "answer_question"], "frequency": 1},
+                "kinda": {"meaning": "somewhat or sort of", "related_functions": ["understand_context", "respond_empathically"], "frequency": 2}
+            },zch
+            "emojis": {
+                "😀": {"meaning": "happy", "related_functions": ["respond_empathically", "generate_caption"]},
+                "😴": {"meaning": "tired or sleepy", "related_functions": ["understand_context", "respond_empathically"]},
+                "🔥": {"meaning": "exciting or lit", "related_functions": ["generate_caption", "suggest_hashtags"]},
+                "❤️": {"meaning": "love or like", "related_functions": ["generate_caption", "write_post"]}
+                "😂": {"yms": ["schedule", "plan", "arrange"], "antonyms": ["cancel", "remove", "delete"]},
+                "generate": {"synonycz bnvvvtyVT v vet 
+Ygi TV ui g v v v g iu by huh y g v Yung ỳ hymn v by hymn Hyun by:.ymv hmm f v v nun ghnrnms": ["create", "produce", "compose"], "antonyms": ["delete", "erase", "destroy"]}, z  l l c
+                "summarize": {"synonyms": ["condense", "abridge", "simplify"], "antonyms": ["expand", "elaborate", "detail"]},
+                "optimize": {"synonyms": ["improve", "enhance", "refine"], "antonyms": ["worsen", "degrade", "impair"]},
+                "respond": {"synonyms": ["reply", "answer", "react"], "antonyms": ["ignore", "dismiss", "neglect"]},z z
+                "share": {"synonyms": ["post", "upload", "publish"], x z zzz z z "antonyms": ["remove", "delete", "hide"]},
+                "edit": {"synonyms": ["modify", "adjust", "revise"], "antonyms": ["preserve", "keep", "maintain"]},
+                "understand": {"synonyms": ["comprehend", "grasp", "interpret"], "antonyms": ["misunderstand", "ignore", "confuse"]},
+                "resolve": {"synonyms": ["clarify", "solve", "address"], "antonyms": ["complicate", "confuse", "ignore"]},
+                "learn": {"synonyms": ["acquire", "grasp", "master"], "antonyms": ["forget", "unlearn", "ignore"]},
+                "adapt": {"synonyms": ["adjust", "evolve", "modify"], "antonyms": ["resist", "stagnate", "fix"]},
+                "process": {"synonyms": ["handle", "execute", "interpret"], "antonyms": ["ignore", "discard", "skip"]},
+                "convert": {"synonyms": ["transform", "translate", "change"], "antonyms": ["preserve", "keep", "maintain"]},
+                "handle": {"synonyms": ["manage", "address", "deal"], "antonyms": ["ignore", "neglect", "avoid"]},
+                "provide": {"synonyms": ["offer", "give", "supply"], "antonyms": ["withhold", "deny", "remove"]},
+                "suggest": {"synonyms": ["recommend", "propose", "advise"], "antonyms": ["discourage", "oppose", "reject"]},
+                "send": {"synonyms": ["transmit", "dispatch", "deliver"], "antonyms": ["receive", "hold", "keep"]},
+                "predict": {"synonyms": ["forecast", "anticipate", "foresee"], "antonyms": ["ignore", "overlook", "miss"]},
+                "play": {"synonyms": ["start", "run", "execute"], "antonyms": ["stop", "pause", "end"]},
+                "translate": {"synonyms": ["convert", "interpret", "render"], "antonyms": ["preserve", "keep", "maintain"]},
+                "lol": {"synonyms": ["haha", "lmao", "rofl"], "antonyms": ["sad", "cry"]},
+                "brb": {"synonyms": ["back soon", "return shortly"], "antonyms": ["stay", "remain"]},
+                "idk": {"synonyms": ["dunno", "not sure"], "antonyms": ["know", "certain"]},
+                "lit": {"synonyms": ["awesome", "cool", "fire"], "antonyms": ["boring", "dull"]},
+                "fam": {"synonyms": ["friends", "crew", "squad"], "antonyms": ["strangers", "enemies"]},
+                "GOAT": {"synonyms": ["best", "greatest", "top"], "antonyms": ["worst", "least"]},
+                "tbh": {"synonyms": ["honestly", "frankly"], "antonyms": ["lie", "deceive"]},
+                "smh": {"synonyms": ["ugh", "disappointing"], "antonyms": ["impressed", "proud"]},
+                "btw": {"synonyms": ["by the way", "incidentally"], "antonyms": ["unrelated"]},
+                "like you know": {"synonyms": ["you know", "you see"], "antonyms": ["not sure", "idk"]},
+                "you know": {"synonyms": ["like you know", "you see"], "antonyms": ["not sure", "idk"]},
+                "um": {"synonyms": ["uh", "er"], "antonyms": ["sure", "confident"]},
+                "kinda": {"synonyms": ["sort of", "somewhat"], "antonyms": ["definitely", "exactly"]}
+            },
+            "cache": {
+                "understand_context": {
+                    "synonyms": ["comprehend", "grasp", "interpret"],
+                    "antonyms": ["misunderstand", "ignore", "confuse"],
+                    "description": "function to analyze context of user input",
+                    "category": "1a: Conversational Intelligence",
+                    "usage_example": "understand context of 'I’m tired'",
+                    "related_functions": ["respond_empathically", "translate_text"],
+                    "related_slang": [
+                        {"term": "like you know", "frequency": 5},
+                        {"term": "you know", "frequency": 3},
+                        {"term": "kinda", "frequency": 2}
+                    ],
+                    "related_emojis": ["😴"]
+                },
+                "resolve_ambiguity": {
+                    "synonyms": ["clarify", "solve", "address"],
+                    "antonyms": ["complicate", "confuse", "ignore"],
+                    "description": "function to clarify ambiguous user input",
+                    "category": "1a: Conversational Intelligence",
+                    "usage_example": "resolve ambiguity in 'set it up'",
+                    "related_functions": ["answer_question", "translate_text"],
+                    "related_slang": [
+                        {"term": "idk", "frequency": 0},
+                        {"term": "um", "frequency": 1},
+                        {"term": "like you know", "frequency": 5}
+                    ],
+                    "related_emojis": ["🤔"]
+                },
+                "process_voice_command": {
+                    "synonyms": ["handle", "execute", "interpret"],
+                    "antonyms": ["ignore", "discard", "skip"],
+                    "description": "function to process voice input",
+                    "category": "1a: Conversational Intelligence",
+                    "usage_example": "process voice command 'set reminder'",
+                    "related_functions": ["understand_context", "resolve_ambiguity"],
+                    "related_slang": [
+                        {"term": "like you know", "frequency": 5}
+                    ],
+                    "related_emojis": []
+                },
+                "convert_speech_to_text": {
+                    "synonyms": ["transform", "translate", "change"],
+                    "antonyms": ["preserve", "keep", "maintain"],
+                    "description": "function to convert speech to text",
+                    "category": "1a: Conversational Intelligence",
+                    "usage_example": "convert speech 'play music'",
+                    "related_functions": ["process_voice_command", "play_music"],
+                    "related_slang": [],
+                    "related_emojis": []
+                },
+                "handle_voice_error": {
+                    "synonyms": ["manage", "address", "deal"],
+                    "antonyms": ["ignore", "neglect", "avoid"],
+                    "description": "function to manage voice input errors",
+                    "category": "1a: Conversational Intelligence",
+                    "usage_example": "handle voice error 'unrecognized speech'",
+                    "related_functions": ["process_voice_command", "convert_speech_to_text"],
+                    "related_slang": [],
+                    "related_emojis": []
+                },
+                "summarize_text": {
+                    "synonyms": ["condense", "abridge", "simplify"],
+                    "antonyms": ["expand", "elaborate", "detail"],
+                    "description": "function to condense text into key points",
+                    "category": "1a: Conversational Intelligence",
+                    "usage_example": "summarize this article",
+                    "related_functions": ["answer_question"],
+                    "related_slang": [],
+                    "related_emojis": []
+                },
+                "respond_empathically": {
+                    "synonyms": ["reply", "answer", "react"],
+                    "antonyms": ["ignore", "dismiss", "neglect"],
+                    "description": "function to respond with empathy to user input",
+                    "category": "1a: Conversational Intelligence",
+                    "usage_example": "respond empathically to 'I’m sad'",
+                    "related_functions": ["understand_context", "translate_text"],
+                    "related_slang": [
+                        {"term": "lol", "frequency": 0},
+                        {"term": "tbh", "frequency": 0},
+                        {"term": "smh", "frequency": 0},
+                        {"term": "like you know", "frequency": 5},
+                        {"term": "you know", "frequency": 3},
+                        {"term": "kinda", "frequency": 2}
+                    ],
+                    "related_emojis": ["😀", "😴", "😂"]
+                },
+                "translate_text": {
+                    "synonyms": ["convert", "interpret", "render"],
+                    "antonyms": ["preserve", "keep", "maintain"],
+                    "description": "function to translate text into another language",
+                    "category": "1a: Conversational Intelligence",
+                    "usage_example": "translate 'hello' to Spanish",
+                    "related_functions": ["understand_context", "resolve_ambiguity"],
+                    "related_slang": [],
+                    "related_emojis": []
+                },
+                "trim_video": {
+                    "synonyms": ["cut", "shorten", "crop"],
+                    "antonyms": ["extend", "lengthen", "expand"],
+                    "description": "function to shorten or trim video length",
+                    "category": "1b: Content Optimization",
+                    "usage_example": "trim video to 5 seconds",
+                    "related_functions": ["optimize_for_platform", "edit_image"],
+                    "related_slang": [],
+                    "related_emojis": ["📹"]
+                },
+                "edit_and_upload_video": {
+                    "synonyms": ["modify", "adjust", "revise"],
+                    "antonyms": ["preserve", "keep", "maintain"],
+                    "description": "function to edit a video and upload it to a platform",
+                    "category": "1b: Content Optimization",
+                    "usage_example": "edit and upload video to YouTube",
+                    "related_functions": ["trim_video", "optimize_for_platform"],
+                    "related_slang": [],
+                    "related_emojis": ["📹"]
+                },
+                "cross_platform_optimize": {
+                    "synonyms": ["improve", "enhance", "refine"],
+                    "antonyms": ["worsen", "degrade", "impair"],
+                    "description": "function to optimize media for multiple platforms",
+                    "category": "1b: Content Optimization",
+                    "usage_example": "optimize video for TikTok and Instagram",
+                    "related_functions": ["trim_video", "suggest_hashtags"],
+                    "related_slang": [],
+                    "related_emojis": []
+                },
+                "suggest_hashtags": {
+                    "synonyms": ["recommend", "propose", "advise"],
+                    "antonyms": ["discourage", "oppose", "reject"],
+                    "description": "function to suggest hashtags for a post",
+                    "category": "1b: Content Optimization",
+                    "usage_example": "suggest hashtags for dog park photo",
+                    "related_functions": ["generate_caption", "cross_platform_optimize"],
+                    "related_slang": [
+                        {"term": "lit", "frequency": 0},
+                        {"term": "GOAT", "frequency": 0}
+                    ],
+                    "related_emojis": ["🔥"]
+                },
+                "generate_caption": {
+                    "synonyms": ["create", "produce", "compose"],
+                    "antonyms": ["delete", "erase", "destroy"],
+                    "description": "function to create a social media caption",
+                    "category": "1c: Creative Generation",
+                    "usage_example": "generate caption for dog park photo",
+                    "related_functions": ["write_post", "suggest_hashtags"],
+                    "related_slang": [
+                        {"term": "lol", "frequency": 0},
+                        {"term": "lit", "frequency": 0},
+                        {"term": "fam", "frequency": 0},
+                        {"term": "GOAT", "frequency": 0},
+                        {"term": "smh", "frequency": 0}
+                    ],
+                    "related_emojis": ["😀", "🔥", "❤️", "😂", "🎉"]
+                },
+                "create_and_share_post": {
+                    "synonyms": ["post", "upload", "publish"],
+                    "antonyms": ["remove", "delete", "hide"],
+                    "description": "function to create a post and share it on a platform",
+                    "category": "1c: Creative Generation",
+                    "usage_example": "create and share a post on Instagram",
+                    "related_functions": ["generate_caption", "optimize_for_platform"],
+                    "related_slang": [],
+                    "related_emojis": ["🎉"]
+                },
+                "set_reminder": {
+                    "synonyms": ["schedule", "plan", "arrange"],
+                    "antonyms": ["cancel", "remove", "delete"],
+                    "description": "function to schedule a reminder",
+                    "category": "1d: Task Automation",
+                    "usage_example": "set reminder for 10 AM",
+                    "related_functions": ["send_message", "predict_next_action"],
+                    "related_slang": [
+                        {"term": "brb", "frequency": 0}
+                    ],
+                    "related_emojis": ["📅"]
+                },
+                "send_message": {
+                    "synonyms": ["transmit", "dispatch", "deliver"],
+                    "antonyms": ["receive", "hold", "keep"],
+                    "description": "function to send a message to a contact",
+                    "category": "1d: Task Automation",
+                    "usage_example": "send message to John",
+                    "related_functions": ["set_reminder", "adapt_to_user"],
+                    "related_slang": [],
+                    "related_emojis": ["💬"]
+                },
+                "play_music": {
+                    "synonyms": ["start", "run", "execute"],
+                    "antonyms": ["stop", "pause", "end"],
+                    "description": "function to play music based on user input",
+                    "category": "1d: Task Automation",
+                    "usage_example": "play music by The Beatles",
+                    "related_functions": ["convert_speech_to_text"],
+                    "related_slang": [],
+                    "related_emojis": ["🎵"]
+                },
+                "set_table": {
+                    "synonyms": ["arrange", "organize", "prepare"],
+                    "antonyms": ["disarrange", "mess", "disorder"],
+                    "description": "function to arrange a table",
+                    "category": "1e: Home Automation",
+                    "usage_example": "set table for dinner",
+                    "related_functions": ["organize_space"],
+                    "related_slang": [],
+                    "related_emojis": []
+                },
+                "learn_new_function": {
+                    "synonyms": ["acquire", "grasp", "master"],
+                    "antonyms": ["forget", "unlearn", "ignore"],
+                    "description": "function to learn a new task from user input",
+                    "category": "1f: Self-Adaptation",
+                    "usage_example": "learn to schedule meetings",
+                    "related_functions": ["set_reminder", "predict_next_action"],
+                    "related_slang": [],
+                    "related_emojis": []
+                },
+                "adapt_to_user": {
+                    "synonyms": ["adjust", "evolve", "modify"],
+                    "antonyms": ["resist", "stagnate", "fix"],
+                    "description": "function to adapt responses to user habits",
+                    "category": "1f: Self-Adaptation",
+                    "usage_example": "adapt to user’s morning routine",
+                    "related_functions": ["analyze_pattern", "predict_next_action"],
+                    "related_slang": [
+                        {"term": "brb", "frequency": 0}
+                    ],
+                    "related_emojis": []
+                },
+                "predict_next_action": {
+                    "synonyms": ["forecast", "anticipate", "foresee"],
+                    "antonyms": ["ignore", "overlook", "miss"],
+                    "description": "function to predict the user’s next action based on patterns",
+                    "category": "1f: Self-Adaptation",
+                    "usage_example": "predict next action after setting a reminder",
+                    "related_functions": ["set_reminder", "adapt_to_user"],
+                    "related_slang": [],
+                    "related_emojis": ["📅"]
+                },
+                "handle_error": {
+                    "synonyms": ["manage", "address", "deal"],
+                    "antonyms": ["ignore", "neglect", "avoid"],
+                    "description": "function to manage errors gracefully",
+                    "category": "1g: System Ascending Order (default)
+                    "usage_example": "handle error 'function not found'",
+                    "related_functions": ["answer_question", "resolve_ambiguity"],
+                    "related_slang": [],
+                    "related_emojis": []
+                },
+                "offline_fallback": {
+                    "synonyms": ["offer", "give", "supply"],
+                    "antonyms": ["withhold", "deny", "remove"],
+                    "description": "function to provide offline response when online lookup fails",
+                    "category": "1g: System Management",
+                    "usage_example": "provide offline response for 'what’s trending'",
+                    "related_functions": ["answer_question"],
+                    "related_slang": [],
+                    "related_emojis": []
+                }
+            }
+        }
+    },
+    "algColl": {
+        "algs": [
+            {
+                "aid": "understand_context",
+                "desc": "function to analyze context of user input",
+                "pm": {
+                    "usage_example": "understand context of 'I’m tired'",
+                    "related_functions": ["respond_empathically", "translate_text"]
+                }
+            },
+            {
+                "aid": "resolve_ambiguity",
+                "desc": "function to clarify ambiguous user input",
+                "pm": {
+                    "usage_example": "resolve ambiguity in 'set it up'",
+                    "related_functions": ["answer_question", "translate_text"]
+                }
+            },
+            {
+                "aid": "process_voice_command",
+                "desc": "function to process voice input",
+                "pm": {
+                    "usage_example": "process voice command 'set reminder'",
+                    "related_functions": ["understand_context", "resolve_ambiguity"]
+                }
+            },
+            {
+                "aid": "convert_speech_to_text",
+                "desc": "function to convert speech to text",
+                "pm": {
+                    "usage_example": "convert speech 'play music'",
+                    "related_functions": ["process_voice_command", "play_music"]
+                }
+            },
+            {
+                "aid": "handle_voice_error",
+                "desc": "function to manage voice input errors",
+                "pm": {
+                    "usage_example": "handle voice error 'unrecognized speech'",
+                    "related_functions": ["process_voice_command", "convert_speech_to_text"]
+                }
+            },
+            {
+                "aid": "summarize_text",
+                "desc": "function to condense text into key points",
+                "pm": {
+                    "usage_example": "summarize this article",
+                    "related_functions": ["answer_question"]
+                }
+            },
+            {
+                "aid": "respond_empathically",
+                "desc": "function to respond with empathy to user input",
+                "pm": {
+                    "usage_example": "respond empathically to 'I’m sad'",
+                    "related_functions": ["understand_context", "translate_text"]
+                }
+            },
+            {
+                "aid": "translate_text",
+                "desc": "function to translate text into another language",
+                "pm": {
+                    "usage_example": "translate 'hello' to Spanish",
+                    "related_functions": ["understand_context", "resolve_ambiguity"]
+                }
+            },
+            {
+                "aid": "trim_video",
+                "desc": "function to shorten or trim video length",
+                "pm": {
+                    "usage_example": "trim video to 5 seconds",
+                    "related_functions": ["optimize_for_platform", "edit_image"]
+                }
+            },
+            {
+                "aid": "edit_and_upload_video",
+                "desc": "function to edit a video and upload it to a platform",
+                "pm": {
+                    "usage_example": "edit and upload video to YouTube",
+                    "related_functions": ["trim_video", "optimize_for_platform"]
+                }
+            },
+            {
+                "aid": "cross_platform_optimize",
+                "desc": "function to optimize media for multiple platforms",
+                "pm": {
+                    "usage_example": "optimize video for TikTok and Instagram",
+                    "related_functions": ["trim_video", "suggest_hashtags"]
+                }
+            },
+            {
+                "aid": "suggest_hashtags",
+                "desc": "function to suggest hashtags for a post",
+                "pm": {
+                    "usage_example": "suggest hashtags for dog park photo",
+                    "related_functions": ["generate_caption", "cross_platform_optimize"]
+                }
+            },
+            {
+                "aid": "generate_caption",
+                "desc": "function to create a social media caption",
+                "pm": {
+                    "usage_example": "generate caption for dog park photo",
+                    "related_functions": ["write_post", "suggest_hashtags"]
+                }
+            },
+            {
+                "aid": "create_and_share_post",
+                "desc": "function to create a post and share it on a platform",
+                "pm": {
+                    "usage_example": "create and share a post on Instagram",
+                    "related_functions": ["generate_caption", "optimize_for_platform"]
+                }
+            },
+            {
+                "aid": "set_reminder",
+                "desc": "function to schedule a reminder",
+                "pm": {
+                    "usage_example": "set reminder for 10 AM",
+                    "related_functions": ["send_message", "predict_next_action"]
+                }
+            },
+            {
+                "aid": "send_message",
+                "desc": "function to send a message to a contact",
+                "pm": {
+                    "usage_example": "send message to John",
+                    "related_functions": ["set_reminder", "adapt_to_user"]
+                }
+            },
+            {
+                "aid": "play_music",
+                "desc": "function to play music based on user input",
+                "pm": {
+                    "usage_example": "play music by The Beatles",
+                    "related_functions": ["convert_speech_to_text"]
+                }
+            },
+            {
+                "aid": "set_table",
+                "desc": "function to arrange a table",
+                "pm": {
+                    "usage_example": "set table for dinner",
+                    "related_functions": ["organize_space"]
+                }
+            },
+            {
+                "aid": "learn_new_function",
+                "desc": "function to learn a new task from user input",
+                "pm": {
+                    "usage_example": "learn to schedule meetings",
+                    "related_functions": ["set_reminder", "predict_next_action"]
+                }
+            },
+            {
+                "aid": "adapt_to_user",
+                "desc": "function to adapt responses to user habits",
+                "pm": {
+                    "usage_example": "adapt to user’s morning routine",
+                    "related_functions": ["analyze_pattern", "predict_next_action"]
+                }
+            },
+            {
+                "aid": "predict_next_action",
+                "desc": "function to predict the user’s next action based on patterns",
+                "pm": {
+                    "usage_example": "predict next action after setting a reminder",
+                    "related_functions": ["set_reminder", "adapt_to_user"]
+                }
+            },
+            {
+                "aid": "handle_error",
+                "desc": "function to manage errors gracefully",
+                "pm": {
+                    "usage_example": "handle error 'function not found'",
+                    "related_functions": ["answer_question", "resolve_ambiguity"]
+                }
+            },
+            {
+                "aid": "offline_fallback",
+                "desc": "function to provide offline response when online lookup fails",
+                "pm": {
+                    "usage_example": "provide offline response for 'what’s trending'",
+                    "related_functions": ["answer_question"]
+                }
+            }
+        ]
+    },
+    "instr": [
+        "Append new turns to conv.",
+        "Update cm based on user interactions.",
+        "Trigger new UI or topic change.",
+        "Use algColl to select appropriate functions for user input.",
+        "Update cm.cache with new interactions to improve future responses."
+    ]
+}

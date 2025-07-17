@@ -1,0 +1,281 @@
+# EDITORIAL OPTIMIZATION
+# Core terminology for video editing and content enhancement
+
+## Basic Editing Actions
+trim
+cut
+split
+join
+merge
+crop
+rotate
+flip
+resize
+adjust
+
+## Transitions
+fade
+dissolve
+wipe
+slide
+push
+pan
+zoom
+whip
+spin
+glitch
+
+## Text Elements
+overlay text
+caption
+subtitle
+title
+header
+bullet points
+description
+quote
+credit
+timestamp
+
+## Pacing Elements
+timing
+speed
+slow motion
+fast motion
+timelapse
+freeze frame
+rhythm
+flow
+stutter
+jump cut
+
+## Structure Components
+hook
+intro
+body
+outro
+conclusion
+teaser
+cliffhanger
+transition
+segment
+sequence
+
+## Audio Elements
+voiceover
+background music
+sound effects
+audio levels
+fade in
+fade out
+ducking
+equalization
+noise reduction
+audio sync
+
+## Visual Elements
+filter
+effect
+animation
+sticker
+emoji
+overlay
+border
+frame
+mask
+template
+
+## Quality Adjustments
+resolution
+clarity
+sharpness
+brightness
+contrast
+saturation
+color balance
+exposure
+stabilization
+noise reduction
+
+## Composition Techniques
+framing
+rule of thirds
+leading lines
+symmetry
+depth
+perspective
+balance
+foreground
+background
+negative space
+
+## Enhancement Strategies
+highlight
+emphasize
+focus
+simplify
+clarify
+enhance
+optimize
+balance
+structure
+clean up
+
+# EDITORIAL OPTIMIZATION
+# Core terminology for video editing and content enhancement
+
+## Basic Editing Actions
+trim
+cut
+split
+join
+merge
+crop
+rotate
+flip
+resize
+adjust
+
+## Common Editing Abbreviations
+FPS (frames per second)
+HD (high definition)
+4K
+SD (standard definition)
+VFX (visual effects)
+SFX (sound effects)
+BG (background)
+VO (voiceover)
+BGM (background music)
+B-roll
+
+## Editing Slang
+fix it in post
+jump cut
+montage
+supercut
+color grading
+color correction
+green screen
+blue screen
+cutaway
+cross-cut
+
+## Transitions
+fade
+dissolve
+wipe
+slide
+push
+pan
+zoom
+whip
+spin
+glitch
+
+## Text Elements
+overlay text
+caption
+subtitle
+title
+header
+bullet points
+description
+quote
+credit
+timestamp
+
+## Pacing Elements
+timing
+speed
+slow motion
+fast motion
+timelapse
+freeze frame
+rhythm
+flow
+stutter
+jump cut
+
+## Structure Components
+hook
+intro
+body
+outro
+conclusion
+teaser
+cliffhanger
+transition
+segment
+sequence
+
+## Audio Elements
+voiceover
+background music
+sound effects
+audio levels
+fade in
+fade out
+ducking
+equalization
+noise reduction
+audio sync
+
+## Visual Elements
+filter
+effect
+animation
+sticker
+emoji
+overlay
+border
+frame
+mask
+template
+
+## Quality Adjustments
+resolution
+clarity
+sharpness
+brightness
+contrast
+saturation
+color balance
+exposure
+stabilization
+noise reduction
+
+## Composition Techniques
+framing
+rule of thirds
+leading lines
+symmetry
+depth
+perspective
+balance
+foreground
+background
+negative space
+
+## Enhancement Strategies
+highlight
+emphasize
+focus
+simplify
+clarify
+enhance
+optimize
+balance
+structure
+clean up
+
+## Content Emojis
+✂️ (cut)
+🔄 (rotate)
+⏱️ (timing)
+🎬 (film clapper)
+🎵 (music note)
+🎤 (microphone)
+📝 (edit)
+🔍 (zoom)
+⏩ (fast forward)
+⏪ (rewind)

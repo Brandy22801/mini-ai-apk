@@ -1,0 +1,65 @@
+# AUTOMOTIVE MECHANICS SYNONYMS AND ALTERNATIVES
+# Variations and alternatives for automotive terminology
+
+## Vehicle Systems
+"engine" → Synonyms: motor, power plant; Types: gas, diesel, electric; Function: generates power; Emoji: 🔥
+"transmission" → Types: automatic, manual, CVT; Function: transfers power; Slang: tranny; Emoji: ⚙️
+"suspension" → Components: shocks, springs, struts; Function: ride comfort; Emoji: 🔄
+"braking" → Components: pads, rotors, calipers; Function: stopping; Types: disc, drum; Emoji: 🛑
+"steering" → Types: power, manual, electric; Components: rack and pinion; Function: direction control; Emoji: 🔄
+
+## Engine Components
+"piston" → Function: converts pressure to motion; Related: rings, connecting rod; Location: cylinder
+"cylinder" → Function: combustion chamber; Configuration: inline, V, flat; Measure: displacement; Emoji: 🔄
+"crankshaft" → Function: converts reciprocating to rotational motion; Related: flywheel; Emoji: ⚙️
+"spark plug" → Function: ignites fuel; Maintenance: replace periodically; Emoji: ⚡
+"alternator" → Function: generates electricity; Related: battery charging; Symptoms: battery light; Emoji: 🔋
+
+## Fluids and Lubricants
+"engine oil" → Function: lubrication; Types: synthetic, conventional; Maintenance: regular changes; Emoji: 🛢️
+"transmission fluid" → Types: ATF, gear oil; Color: red, pink; Function: lubrication, hydraulic pressure; Emoji: 💧
+"brake fluid" → Types: DOT 3, 4, 5; Function: hydraulic pressure; Maintenance: check level; Emoji: 💧
+"coolant" → Synonyms: antifreeze; Function: cooling, freeze protection; Colors: green, orange, pink; Emoji: ❄️
+"power steering fluid" → Function: hydraulic assistance; Check: reservoir; Symptoms: hard steering; Emoji: 💧
+
+## Maintenance Tasks
+"oil change" → Frequency: 3k-10k miles; Components: oil, filter; DIY level: beginner; Emoji: 🛢️
+"tire rotation" → Purpose: even wear; Frequency: 5k-8k miles; DIY level: beginner; Emoji: 🔄
+"brake service" → Components: pads, rotors; Signs needed: squealing, reduced stopping; Emoji: 🛑
+"tune-up" → Components: plugs, filters, fluids; Frequency: varies; Purpose: performance; Emoji: ⚙️
+"alignment" → Types: toe, camber, caster; Symptoms: pulling, uneven wear; Equipment: specialized; Emoji: 📏
+
+## Common Problems
+"check engine light" → Synonyms: CEL, MIL; Diagnosis: code reader; Severity: varies; Emoji: 🚨
+"overheating" → Causes: low coolant, fan, thermostat; Warning: temperature gauge; Emergency: stop; Emoji: 🔥
+"stalling" → Causes: fuel, ignition, sensors; When: idle, driving; Diagnosis: scan tool; Emoji: 💤
+"hard starting" → Causes: battery, starter, fuel; Symptoms: cranking, clicking; Emoji: 🔑
+"rough idle" → Causes: spark plugs, sensors, vacuum leaks; Symptoms: vibration; Emoji: 📳
+
+## Tools and Equipment
+"wrench" → Types: open-end, box-end, combination; Sizes: metric, SAE; Emoji: 🔧
+"socket set" → Components: sockets, ratchet, extensions; Sizes: metric, SAE; Emoji: 🔧
+"OBD scanner" → Function: read codes; Types: basic, advanced; Synonyms: code reader; Emoji: 💻
+"multimeter" → Function: electrical testing; Measures: voltage, resistance, amperage; Emoji: ⚡
+"torque wrench" → Function: precise tightening; Types: click, beam, digital; Emoji: 🔧
+
+## Performance Measures
+"horsepower" → Abbreviation: HP; Measure: power output; Test: dynamometer; Emoji: 🐎
+"torque" → Measure: rotational force; Units: lb-ft, Nm; Related: acceleration; Emoji: 💪
+"MPG" → Expansion: Miles Per Gallon; International: L/100km; Measure: fuel economy; Emoji: ⛽
+"RPM" → Expansion: Revolutions Per Minute; Display: tachometer; Range: varies by engine; Emoji: 🔄
+"compression ratio" → Related: engine efficiency; Higher: performance; Lower: regular fuel; Emoji: 🔢
+
+## Vehicle Parts
+"battery" → Function: electrical storage; Types: lead-acid, AGM; Measure: CCA; Emoji: 🔋
+"alternator" → Function: generates electricity; Symptom: battery light; Related: charging; Emoji: ⚡
+"radiator" → Function: heat dissipation; Related: cooling system; Component: fins, tubes; Emoji: ❄️
+"shock absorber" → Function: dampen oscillation; Related: suspension; Symptoms: bouncing; Emoji: 🔄
+"catalytic converter" → Function: emissions control; Location: exhaust; Symptom: check engine light; Emoji: 💨
+
+## Warning Signs
+"noise" → Types: knocking, squealing, grinding; Diagnosis: location, when; Emoji: 🔊
+"vibration" → Causes: wheels, engine, drivetrain; Diagnosis: speed, conditions; Emoji: 📳
+"smell" → Types: burning, sweet, fuel; Related: leaks, overheating; Warning: immediate; Emoji: 👃
+"leak" → Types: oil, coolant, fuel; Diagnosis: color, location; Severity: varies; Emoji: 💧
+"smoke" → Colors: white, black, blue; Causes: coolant, fuel, oil; Severity: varies; Emoji: 💨

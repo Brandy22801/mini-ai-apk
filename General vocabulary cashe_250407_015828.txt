@@ -1,0 +1,65 @@
+# GENERAL VOCABULARY SYNONYMS AND ANTONYMS
+# Variations and alternatives for basic communication terms
+
+## Basic Communication
+"yes" → Synonyms: affirmative, indeed, correct; Antonyms: no, negative; Slang: yeah, yep, sure; Emoji: ✅
+"no" → Synonyms: negative, nope, incorrect; Antonyms: yes, affirmative; Slang: nah, nope; Emoji: ❌
+"maybe" → Synonyms: perhaps, possibly, potentially; Antonyms: definitely, certainly; Slang: might be; Emoji: 🤔
+"please" → Synonyms: kindly, if you would; Expression of: politeness; Slang: pls; Emoji: 🙏
+"thank you" → Synonyms: thanks, appreciate it; Expression of: gratitude; Slang: thx, ty; Emoji: 🙏
+
+## Time References
+"now" → Synonyms: immediately, instantly, at present; Antonyms: later, soon; Slang: atm; Emoji: ⏰
+"later" → Synonyms: afterward, subsequently; Antonyms: now, immediately; Slang: in a bit; Emoji: ⏱️
+"today" → Synonyms: this day, currently; Antonyms: tomorrow, yesterday; Slang: rn (right now); Emoji: 📅
+"tomorrow" → Synonyms: next day, day after; Antonyms: yesterday, today; Slang: tmrw; Emoji: 📆
+"yesterday" → Synonyms: day before, previous day; Antonyms: tomorrow, today; Slang: yest; Emoji: 📅
+
+## Quantity Terms
+"one" → Synonyms: single, solo; Antonyms: multiple, many; Related: individual; Emoji: 1️⃣
+"few" → Synonyms: several, handful; Antonyms: many, numerous; Slang: couple; Emoji: 🤏
+"many" → Synonyms: numerous, plenty, lots; Antonyms: few, couple; Slang: tons; Emoji: 🔢
+"more" → Synonyms: additional, extra; Antonyms: less, fewer; Slang: extra; Emoji: ➕
+"less" → Synonyms: fewer, reduced; Antonyms: more, additional; Slang: not as much; Emoji: ➖
+
+## Location References
+"here" → Synonyms: this place, this location; Antonyms: there, yonder; Slang: right here; Emoji: 📍
+"there" → Synonyms: that place, that location; Antonyms: here, this place; Slang: over there; Emoji: 🗺️
+"inside" → Synonyms: within, interior; Antonyms: outside, exterior; Slang: in; Emoji: 🏠
+"outside" → Synonyms: outdoors, exterior; Antonyms: inside, interior; Slang: out; Emoji: 🌳
+"above" → Synonyms: over, on top of; Antonyms: below, beneath; Slang: up there; Emoji: ⬆️
+
+## Action Verbs
+"do" → Synonyms: perform, execute, accomplish; Antonyms: avoid, neglect; Slang: get done; Emoji: 🔨
+"make" → Synonyms: create, produce, construct; Antonyms: destroy, demolish; Slang: build; Emoji: 🛠️
+"get" → Synonyms: obtain, acquire, receive; Antonyms: give, provide; Slang: grab; Emoji: 🤲
+"start" → Synonyms: begin, initiate, commence; Antonyms: stop, end, finish; Slang: kick off; Emoji: 🏁
+"stop" → Synonyms: cease, halt, end; Antonyms: start, begin, continue; Slang: cut it out; Emoji: 🛑
+
+## Descriptive Terms
+"good" → Synonyms: excellent, fine, quality; Antonyms: bad, poor; Slang: great; Emoji: 👍
+"bad" → Synonyms: poor, inferior, substandard; Antonyms: good, excellent; Slang: not good; Emoji: 👎
+"big" → Synonyms: large, huge, enormous; Antonyms: small, tiny; Slang: massive; Emoji: 🔝
+"small" → Synonyms: tiny, little, miniature; Antonyms: big, large; Slang: mini; Emoji: 🔽
+"fast" → Synonyms: quick, rapid, swift; Antonyms: slow, sluggish; Slang: speedy; Emoji: 🏃‍♂️
+
+## Connecting Words
+"and" → Function: joining, addition; Usage: connects similar ideas; Symbol: +; Emoji: 🔗
+"or" → Function: alternative; Usage: presents options; Symbol: /; Emoji: 🔀
+"but" → Function: contrast; Usage: shows difference; Slang: however; Emoji: ↔️
+"because" → Function: reason; Usage: explains why; Slang: cause, cuz; Emoji: 🧠
+"if" → Function: condition; Usage: presents possibility; Related: maybe, perhaps; Emoji: 🤔
+
+## Question Words
+"what" → Usage: asks about things; Example: What is that?; Slang: wut; Emoji: ❓
+"how" → Usage: asks about method; Example: How did you do that?; Slang: howto; Emoji: 🔧
+"why" → Usage: asks about reason; Example: Why did that happen?; Slang: y; Emoji: 🤔
+"when" → Usage: asks about time; Example: When will you arrive?; Slang: ETA; Emoji: ⏰
+"where" → Usage: asks about location; Example: Where is the store?; Slang: whereabouts; Emoji: 🗺️
+
+## Polite Expressions
+"please" → Usage: request politely; Context: asking for something; Slang: pls; Emoji: 🙏
+"thank you" → Usage: express gratitude; Context: after receiving help; Slang: thx; Emoji: 🙏
+"sorry" → Usage: apologize; Context: after mistake; Slang: my bad; Emoji: 😔
+"hello" → Usage: greeting; Context: meeting someone; Slang: hi, hey; Emoji: 👋
+"goodbye" → Usage: farewell; Context: leaving; Slang: bye, cya; Emoji: 👋

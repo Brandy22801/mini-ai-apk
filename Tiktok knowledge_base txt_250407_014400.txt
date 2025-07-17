@@ -1,0 +1,79 @@
+# TIKTOK PLATFORM TERMINOLOGY
+# Core terms related to TikTok content and features
+
+## Content Types
+video
+sound
+duet
+stitch
+reaction
+slideshow
+green screen
+collage
+live
+
+## Engagement Metrics
+like
+comment
+share
+follow
+views
+follower
+favorite
+
+## Trending Elements
+viral
+challenge
+trending sound
+hashtag
+dance
+FYP
+For You Page
+
+## Common Hashtags
+#FYP
+#ForYou
+#TikTokMadeMeBuyIt
+#FitnessTips
+#HealthyEating
+#LearnOnTikTok
+#TrendAlert
+#DanceTrend
+
+## Features and Effects
+filter
+effect
+green screen
+text-to-speech
+voice effects
+transition
+time warp
+slow motion
+beauty mode
+
+## Creator Tools
+creator fund
+analytics
+monetization
+live stream
+creator marketplace
+promote
+Q&A
+playlist
+
+## Algorithm Terms
+recommendation
+discovery
+reach
+engagement rate
+watch time
+completion rate
+audience retention
+
+## Community Features
+community guidelines
+report
+block
+privacy settings
+age restriction
+content warning

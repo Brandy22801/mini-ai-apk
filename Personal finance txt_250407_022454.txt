@@ -1,0 +1,122 @@
+# PERSONAL FINANCE
+# Terminology related to money management, banking, and personal finances
+
+## Banking Terms
+account
+deposit
+withdrawal
+transfer
+balance
+statement
+check
+debit
+credit
+interest
+
+## Account Types
+checking
+savings
+retirement
+investment
+credit card
+mortgage
+loan
+brokerage
+CD
+money market
+
+## Financial Goals
+budget
+saving
+investing
+debt reduction
+retirement
+emergency fund
+down payment
+education
+major purchase
+wealth building
+
+## Income Sources
+salary
+wage
+commission
+bonus
+dividend
+interest
+rent
+royalty
+self-employment
+side hustle
+
+## Expense Categories
+housing
+transportation
+food
+utilities
+insurance
+entertainment
+clothing
+healthcare
+education
+debt payment
+
+## Investment Vehicles
+stock
+bond
+mutual fund
+ETF
+index fund
+real estate
+cryptocurrency
+CD
+treasury
+retirement account
+
+## Financial Terms
+interest rate
+APR
+APY
+principal
+compound interest
+net worth
+cash flow
+liquidity
+equity
+diversification
+
+## Tax Terminology
+income tax
+deduction
+credit
+filing status
+refund
+withholding
+tax bracket
+exemption
+dependent
+capital gain
+
+## Financial Planning
+financial plan
+goal setting
+net worth
+risk tolerance
+time horizon
+asset allocation
+estate plan
+insurance coverage
+retirement planning
+tax strategy
+
+## Financial Emojis
+💰 (money bag)
+💵 (dollar bill)
+💳 (credit card)
+🏦 (bank)
+📊 (chart)
+📈 (upward trend)
+📉 (downward trend)
+🧮 (calculator)
+📝 (note)
+🏠 (house)

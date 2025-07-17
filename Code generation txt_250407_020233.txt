@@ -1,0 +1,122 @@
+# CODE GENERATION
+# Terminology for understanding and creating code across different languages
+
+## Programming Languages
+Python
+JavaScript
+HTML
+CSS
+Java
+C++
+Swift
+Kotlin
+PHP
+SQL
+
+## Development Concepts
+function
+variable
+class
+object
+method
+property
+loop
+condition
+array
+string
+
+## Code Operations
+create
+write
+generate
+debug
+test
+run
+execute
+compile
+deploy
+implement
+
+## Programming Paradigms
+procedural
+object-oriented
+functional
+event-driven
+declarative
+imperative
+reactive
+concurrent
+asynchronous
+structured
+
+## Development Tools
+IDE
+text editor
+compiler
+debugger
+terminal
+command line
+git
+version control
+framework
+library
+
+## Code Components
+comment
+line
+block
+statement
+expression
+parameter
+argument
+return
+import
+export
+
+## Code Structures
+if-else
+for loop
+while loop
+switch
+try-catch
+function declaration
+class definition
+module
+package
+namespace
+
+## Web Development
+frontend
+backend
+full-stack
+API
+endpoint
+request
+response
+server
+client
+database
+
+## Common Functions
+print
+log
+calculate
+validate
+parse
+convert
+transform
+filter
+map
+reduce
+
+## Code Emojis
+💻 (computer)
+👨‍💻 (programmer)
+🐞 (bug)
+⚙️ (gear)
+📊 (chart)
+📱 (mobile)
+🔄 (refresh)
+📦 (package)
+🔧 (tool)
+🔌 (plugin)

@@ -1,0 +1,106 @@
+# DEVICE AND VOICE COMMANDS
+# Core command terminology for device control and voice interactions
+
+## Device Activation
+set
+turn on
+switch on
+activate
+start
+power up
+enable
+initialize
+
+## Device Deactivation
+turn off
+switch off
+deactivate
+stop
+power down
+disable
+end
+quit
+
+## Application Control
+open
+close
+launch
+exit
+minimize
+maximize
+show
+hide
+
+## Media Control
+play
+pause
+stop
+rewind
+fast-forward
+skip
+volume up
+volume down
+mute
+unmute
+
+## System Settings
+reminder
+alarm
+Do Not Disturb
+silent mode
+airplane mode
+brightness
+bluetooth
+wifi
+location
+battery saver
+
+## Navigation
+go to
+navigate
+search
+find
+scroll
+swipe
+tap
+click
+select
+back
+
+## Input Actions
+type
+enter
+select
+choose
+dictate
+speak
+record
+capture
+
+## Output Actions
+display
+show
+present
+project
+cast
+screen mirror
+
+## Notification Management
+alert
+notify
+remind
+silence
+snooze
+dismiss
+
+## Communication Controls
+call
+text
+email
+message
+video call
+voice message
+share
+send
+receive
+reply

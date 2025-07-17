@@ -1,0 +1,122 @@
+# TRAVEL AND GEOGRAPHY
+# Terminology related to travel, locations, and geographical concepts
+
+## Travel Planning
+itinerary
+reservation
+booking
+accommodation
+transportation
+budget
+schedule
+duration
+destination
+departure
+
+## Transportation Modes
+airplane
+train
+bus
+car
+ship
+ferry
+subway
+taxi
+bicycle
+walking
+
+## Accommodation Types
+hotel
+hostel
+resort
+motel
+apartment
+villa
+camping
+homestay
+guesthouse
+bed and breakfast
+
+## Travel Documents
+passport
+visa
+ticket
+boarding pass
+reservation
+itinerary
+insurance
+identification
+license
+vaccination record
+
+## Geographic Features
+mountain
+river
+lake
+ocean
+beach
+forest
+desert
+island
+valley
+plateau
+
+## Location Types
+city
+country
+state
+province
+region
+continent
+neighborhood
+district
+town
+village
+
+## Travel Activities
+sightseeing
+tour
+excursion
+adventure
+relaxation
+shopping
+dining
+entertainment
+exploration
+photography
+
+## Climate Terms
+weather
+temperature
+season
+humidity
+precipitation
+sunshine
+wind
+forecast
+climate zone
+altitude
+
+## Cardinal Directions
+north
+south
+east
+west
+northeast
+northwest
+southeast
+southwest
+latitude
+longitude
+
+## Travel Emojis
+🗺️ (map)
+✈️ (airplane)
+🏨 (hotel)
+🧳 (luggage)
+🚗 (car)
+🏖️ (beach)
+🏔️ (mountain)
+🌍 (globe)
+🧭 (compass)
+📷 (camera)

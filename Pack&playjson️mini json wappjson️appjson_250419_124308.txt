@@ -1,0 +1,551 @@
+{
+      }
+    ]
+     "priority_retention": 0.85,
+      "evaluation_decisional": 0.75,
+      "subconscious_disregard": 0.2,
+      "subliminal_factor": 0.3,
+      "perspective_proximity_paradox": 0.5,
+      "perspective_of_the_subjective": 0.65
+    }
+  }
+{ "Android_Application": { "name": "MiniAIApp", "version": "1.0", "platform": "Android", "components": { "coverPage": { "cid": "app_001", "ts": "2025-04-14T12:00:00Z", "uid": "system", "summary": "Android application for Mini AI integration", "sections": ["conv", "algColl", "instr", "meta", "evar"] }, "plugin_manager": { "plugins": [ { "name": "device_data_collector", "enabled": true, "manifest": { "name": "device_data_collector", "version": "1.0", "description": "Collects device data (e.g., battery, location)", "main": "DeviceDataCollectorPlugin" } }, { "name": "permission_manager", "enabled": true, "manifest": { "name": "permission_manager", "version": "1.0", "description": "Manages Android permissions", "main": "PermissionManagerPlugin" } }, { "name": "mini_ai_bridge", "enabled": true, "manifest": { "name": "mini_ai_bridge", "version": "1.0", "description": "Facilitates communication with Mini AI", "main": "MiniAIBridgePlugin", "ai_model": "MiniAI" } } ], "methods": [ { "name": "load_plugins", "param": "directory", "action": "Scans the specified directory for plug-in manifest files" }, { "name": "switch_ai_model", "param": "model_name", "action": "Disables current AI bridge, enables the bridge for the specified model" } ] }, "algColl": { "algs": [ { "aid": "communication_bridge", "desc": "Handles all communication between Mini AI and the Android application.", "pm": { "moduleType": "communication", "dependencies": [] }, "algs": [ { "aid": "send_event_to_mini_ai", "desc": "Sends an event and its data to Mini AI for processing.", "pm": { "event": "The full event object being sent.", "eventId": "The unique identifier of the event.", "eventType": "The type of the event.", "data": "A JSON object containing the data associated with the event." }, "permission": null }, { "aid": "receive_event_from_mini_ai", "desc": "Receives an event from Mini AI and routes it to the appropriate module.", "pm": { "event": "The full event object received from Mini AI.", "eventId": "The unique identifier of the event.", "eventType": "The type of the event.", "data": "A JSON object containing the data associated with the event." }, "permission": null } ] }, { "aid": "permission_broker", "desc": "Manages all Android permissions for the application.", "pm": { "moduleType": "permission", "dependencies": [] }, "algs": [ { "aid": "request_permission", "desc": "Requests a specific Android permission from the user.", "pm": { "permission": "The Android permission string to request." }, "permission": "android.permission.REQUEST_PERMISSION" }, { "aid": "check_permission", "desc": "Checks if a specific Android permission has been granted.", "pm": { "permission": "The Android permission string to check." }, "permission": null } ] }, { "aid": "voice_input_module", "desc": "Captures and processes voice input.", "pm": { "moduleType": "input", "dependencies": [] }, "algs": [ { "aid": "start_listening", "desc": "Starts listening for voice input.", "pm": { "language": "The language code to use for voice recognition (e.g., en-US).", "timeout": "The maximum time to listen for voice input, in milliseconds." }, "permission": "android.permission.RECORD_AUDIO" }, { "aid": "stop_listening", "desc": "Stops listening for voice input.", "pm": {}, "permission": null } ] }, { "aid": "pop_up_window_module", "desc": "Manages the pop-up window.", "pm": { "moduleType": "display", "dependencies": [] }, "algs": [ { "aid": "show_pop_up", "desc": "Displays a pop-up window.", "pm": { "content": "The content to display in the pop-up window.", "x": "The x-coordinate of the pop-up window.", "y": "The y-coordinate of the pop-up window.", "width": "The width of the pop-up window.", "height": "The height of the pop-up window." }, "permission": "android.permission.SYSTEM_ALERT_WINDOW" }, { "aid": "hide_pop_up", "desc": "Hides the pop-up window.", "pm": {}, "permission": null } ] }, { "aid": "background_service", "desc": "Keeps the application running in the background.", "pm": { "moduleType": "system", "dependencies": [] }, "algs": [ { "aid": "start_service", "desc": "Starts the application background service.", "pm": { "serviceName": "The name of the background service to start." }, "permission": null }, { "aid": "stop_service", "desc": "Stops the application background service.", "pm": { "serviceName": "The name of the background service to stop." }, "permission": null } ] } ] }, "conv": [], "instr": [ "Load plug-ins via plugin_manager at startup", { "aid": "collect_device_data", "desc": "Periodically collects device data and sends it to Mini AI", "pm": { "frequency": "Every 5 minutes", "action": "Call collect_device_data module", "nextEvent": "device_data_update" } }, { "aid": "handle_mini_ai_event", "desc": "Receives an event from Mini AI, determines its destination, and calls the appropriate function in another module.", "pm": { "eventType": "The type of the Mini AI event.", "event": "The Mini AI event.", "nextEvent": "The next event to call after this." } }, { "aid": "voice_input", "desc": "An event indicating that voice input has been received.", "pm": { "eventType": "The type of the event, which will be `voice_input`.", "data": "The transcribed voice input data.", "sourceModule": "The module that triggered the event, `voice_input_module`.", "destinationModule": "The module that the event is intended for." } }, { "aid": "permission_request", "desc": "An event indicating that a permission is being requested.", "pm": { "eventType": "The type of the event, which will be `permission_request`.", "data": "The permission being requested.", "sourceModule": "The module that triggered the event, `permission_broker`.", "destinationModule": "The module that the event is intended for." } } ], "meta": { "settings": { "userSettings": { "setting1": "setting_value_description", "setting2": "setting_value_description" }, "communicationSettings": { "port": "communication_port_number", "protocol": "communication_protocol_used" }, "permissionSettings": [ "android.permission.CAMERA", "android.permission.ACCESS_FINE_LOCATION", "android.permission.RECORD_AUDIO", "android.permission.SYSTEM_ALERT_WINDOW" ], "displaySettings": { "resolution": "display_resolution_info", "refreshRate": "display_refresh_rate_info" } } }, "evar": {} }, "system_properties": { "scalability": "Supports plug-ins for different AI models", "extensibility": "Drop-and-play plug-ins for new functionalities" } 
+} 
+ }
+     "priority_retention": 0.85,
+      "evaluation_decisional": 0.75,
+      "subconscious_disregard": 0.2,
+      "subliminal_factor": 0.3,
+      "perspective_proximity_paradox": 0.5,
+      "perspective_of_the_subjective": 0.65
+    }
+  }
+    "functions": {
+      "1a: Conversational Intelligence": {
+        "understand_context": {
+          "synonyms": ["comprehend", "grasp", "interpret"],
+          "antonyms": ["misunderstand", "ignore", "confuse"],
+          "description": "function to analyze context of user input",
+          "usage_example": "understand context of 'i'm tired'",
+          "related_functions": ["detect_mood", "respond_empathetically"],
+          "related_slang": [
+            {"term": "like you know", "frequency": 5},
+            {"term": "you know", "frequency": 3},
+            {"term": "kinda", "frequency": 2}
+          ],
+          "related_emojis": ["🤔"]
+        },
+        "resolve_ambiguity": {
+          "synonyms": ["clarify", "solve", "address"],
+          "antonyms": ["complicate", "confuse", "ignore"],
+          "description": "function to clarify ambiguous user input",
+          "usage_example": "resolve ambiguity in 'set it up'",
+          "related_functions": ["detect_intent", "answer_question"],
+          "related_slang": [
+            {"term": "idk", "frequency": 0},
+            {"term": "um", "frequency": 1},
+            {"term": "like you know", "frequency": 5}
+          ],
+          "related_emojis": ["🤔"]
+        },
+        "process_voice_command": {
+          "synonyms": ["handle", "execute", "interpret"],
+          "antonyms": ["ignore", "discard", "skip"],
+          "description": "function to process voice input",
+          "usage_example": "process voice command 'set reminder'",
+          "related_functions": ["understand_context", "resolve_ambiguity"],
+          "related_slang": [
+            {"term": "like you know", "frequency": 5}
+          ],
+          "related_emojis": []
+        },
+        "convert_speech_to_text": {
+          "synonyms": ["transform", "translate", "change"],
+          "antonyms": ["preserve", "keep", "maintain"],
+          "description": "function to convert speech to text",
+          "usage_example": "convert speech 'play music'",
+          "related_functions": ["process_voice_command"],
+          "related_slang": [],
+          "related_emojis": []
+        },
+        "handle_voice_error": {
+          "synonyms": ["manage", "address", "deal"],
+          "antonyms": ["ignore", "neglect", "avoid"],
+          "description": "function to manage voice input errors",
+          "usage_example": "handle voice error 'unrecognized speech'",
+          "related_functions": ["process_voice_command", "convert_speech_to_text"],
+          "related_slang": [],
+          "related_emojis": []
+        },
+        "summarize_text": {
+          "synonyms": ["condense", "abridge", "simplify"],
+          "antonyms": ["expand", "elaborate", "detail"],
+          "description": "function to condense text into key points",
+          "usage_example": "summarize this article",
+          "related_functions": ["answer_question"],
+          "related_slang": [],
+          "related_emojis": []
+        }
+      },
+      "1b: Content Optimization": {
+        "trim_video": {
+          "synonyms": ["cut", "shorten", "crop"],
+          "antonyms": ["extend", "lengthen", "expand"],
+          "description": "function to shorten or trim video length",
+          "usage_example": "trim video to 5 seconds",
+          "related_functions": ["optimize_for_platform", "edit_image"],
+          "related_slang": [],
+          "related_emojis": []
+        },
+        "edit_and_upload_video": {
+          "synonyms": ["modify", "adjust", "revise"],
+          "antonyms": ["preserve", "keep", "maintain"],
+          "description": "function to edit a video and upload it to a platform",
+          "usage_example": "edit and upload video to YouTube",
+          "related_functions": ["trim_video", "optimize_for_platform"],
+          "related_slang": [],
+          "related_emojis": []
+        },
+        "cross_platform_optimize": {
+          "synonyms": ["improve", "enhance", "refine"],
+          "antonyms": ["worsen", "degrade", "impair"],
+          "description": "function to optimize media for multiple platforms",
+          "usage_example": "optimize video for TikTok and Instagram",
+          "related_functions": ["trim_video", "suggest_hashtags"],
+          "related_slang": [],
+          "related_emojis": []
+        }
+      },
+      "1c: Creative Generation": {
+        "generate_caption": {
+          "synonyms": ["create", "produce", "compose"],
+          "antonyms": ["delete", "erase", "destroy"],
+          "description": "function to create a social media caption",
+          "usage_example": "generate caption for dog park photo",
+          "related_functions": ["write_post", "suggest_hashtags"],
+          "related_slang": [
+            {"term": "lol", "frequency": 0},
+            {"term": "lit", "frequency": 0},
+            {"term": "fam", "frequency": 0},
+            {"term": "GOAT", "frequency": 0},
+            {"term": "smh", "frequency": 0}
+          ],
+          "related_emojis": ["😂", "🔥", "👨‍👩‍👧‍👦", "🐐", "🤦"]
+        },
+        "create_and_share_post": {
+          "synonyms": ["post", "upload", "publish"],
+          "antonyms": ["remove", "delete", "hide"],
+          "description": "function to create a post and share it on a platform",
+          "usage_example": "create and share a post on Instagram",
+          "related_functions": ["generate_caption", "optimize_for_platform"],
+          "related_slang": [],
+          "related_emojis": ["📸"]
+        }
+      },
+      "1d: Task Automation": {
+        "set_reminder": {
+          "synonyms": ["schedule", "plan", "arrange"],
+          "antonyms": ["cancel", "remove", "delete"],
+          "description": "function to schedule a reminder",
+          "usage_example": "set reminder for 10 AM",
+          "related_functions": ["send_message", "predict_next_action"],
+          "related_slang": [
+            {"term": "brb", "frequency": 0}
+          ],
+          "related_emojis": ["⏰"]
+        }
+      },
+      "1e: Home Automation": {
+        "set_table": {
+          "synonyms": ["arrange", "organize", "prepare"],
+          "antonyms": ["disarrange", "mess", "disorder"],
+          "description": "function to arrange a table",
+          "usage_example": "set table for dinner",
+          "related_functions": ["organize_space"],
+          "related_slang": [],
+          "related_emojis": []
+        }
+      },
+      "1f: Self-Adaptation": {
+        "learn_new_function": {
+          "synonyms": ["acquire", "grasp", "master"],
+          "antonyms": ["forget", "unlearn", "ignore"],
+          "description": "function to learn a new task from user input",
+          "usage_example": "learn to schedule meetings",
+          "related_functions": ["set_reminder", "predict_next_action"],
+          "related_slang": [],
+          "related_emojis": []
+        },
+        "adapt_to_user": {
+          "synonyms": ["adjust", "evolve", "modify"],
+          "antonyms": ["resist", "stagnate", "fix"],
+          "description": "function to adapt responses to user habits",
+          "usage_example": "adapt to user's morning routine",
+          "related_functions": ["analyze_pattern", "predict_next_action"],
+          "related_slang": [
+            {"term": "brb", "frequency": 0}
+          ],
+          "related_emojis": []
+        }
+      },
+      "1g: System Management": {
+        "handle_error": {
+          "synonyms": ["manage", "address", "deal"],
+          "antonyms": ["ignore", "neglect", "avoid"],
+          "description": "function to manage errors gracefully",
+          "usage_example": "handle error 'function not found'",
+          "related_functions": ["answer_question", "resolve_ambiguity"],
+          "related_slang": [],
+          "related_emojis": []
+        },
+        "offline_fallback": {
+          "synonyms": ["offer", "give", "supply"],
+          "antonyms": ["withhold", "deny", "remove"],
+          "description": "function to provide offline response when online lookup fails",
+          "usage_example": "provide offline response for 'what's trending'",
+          "related_functions": ["answer_question"],
+          "related_slang": [],
+          "related_emojis": []
+        }
+      },
+      "2a: Slang and Abbreviations": {
+        "lol": {
+          "meaning": "laughing out loud",
+          "synonyms": ["haha", "lmao", "rofl"],
+          "antonyms": ["sad", "cry"],
+          "related_functions": ["respond_empathetically", "generate_caption"],
+          "frequency": 0
+        },
+        "brb": {
+          "meaning": "be right back",
+          "synonyms": ["back soon", "return shortly"],
+          "antonyms": ["stay", "remain"],
+          "related_functions": ["set_reminder", "adapt_to_user"],
+          "frequency": 0
+        },
+        "idk": {
+          "meaning": "i don't know",
+          "synonyms": ["dunno", "not sure"],
+          "antonyms": ["know", "certain"],
+          "related_functions": ["answer_question", "resolve_ambiguity"],
+          "frequency": 0
+        },
+        "lit": {
+          "meaning": "exciting or excellent",
+          "synonyms": ["awesome", "cool", "fire"],
+          "antonyms": ["boring", "dull"],
+          "related_functions": ["generate_caption", "suggest_hashtags"],
+          "frequency": 0
+        },
+        "fam": {
+          "meaning": "family or friends",
+          "synonyms": ["friends", "crew", "squad"],
+          "antonyms": ["strangers", "enemies"],
+          "related_functions": ["generate_caption", "write_post"],
+          "frequency": 0
+        },
+        "GOAT": {
+          "meaning": "greatest of all time",
+          "synonyms": ["best", "greatest", "top"],
+          "antonyms": ["worst", "least"],
+          "related_functions": ["generate_caption", "suggest_hashtags"],
+          "frequency": 0
+        },
+        "tbh": {
+          "meaning": "to be honest",
+          "synonyms": ["honestly", "frankly"],
+          "antonyms": ["lie", "deceive"],
+          "related_functions": ["respond_empathetically", "write_post"],
+          "frequency": 0
+        },
+        "smh": {
+          "meaning": "shaking my head",
+          "synonyms": ["ugh", "disappointing"],
+          "antonyms": ["impressed", "proud"],
+          "related_functions": ["respond_empathetically", "generate_caption"],
+          "frequency": 0
+        },
+        "btw": {
+          "meaning": "by the way",
+          "synonyms": ["by the way", "incidentally"],
+          "antonyms": ["unrelated"],
+          "related_functions": ["answer_question", "understand_context"],
+          "frequency": 0
+        },
+        "like you know": {
+          "meaning": "seeking confirmation or explaining",
+          "synonyms": ["you know", "you see"],
+          "antonyms": ["not sure", "idk"],
+          "related_functions": ["understand_context", "respond_empathetically", "resolve_ambiguity"],
+          "frequency": 5
+        },
+        "you know": {
+          "meaning": "seeking confirmation",
+          "synonyms": ["like you know", "you see"],
+          "antonyms": ["not sure", "idk"],
+          "related_functions": ["understand_context", "respond_empathetically"],
+          "frequency": 3
+        },
+        "um": {
+          "meaning": "hesitation or thinking",
+          "synonyms": ["uh", "er"],
+          "antonyms": ["sure", "confident"],
+          "related_functions": ["resolve_ambiguity", "answer_question"],
+          "frequency": 1
+        },
+        "kinda": {
+          "meaning": "somewhat or sort of",
+          "synonyms": ["sort of", "somewhat"],
+          "antonyms": ["definitely", "exactly"],
+          "related_functions": ["understand_context", "respond_empathetically"],
+          "frequency": 2
+        }
+      },
+      "2b: Emojis": {
+        "😊": {
+          "meaning": "happy",
+          "related_functions": ["respond_empathetically", "generate_caption"]
+        },
+        "🔥": {
+          "meaning": "exciting or lit",
+          "related_functions": ["generate_caption", "suggest_hashtags"]
+        },
+        "❤️": {
+          "meaning": "love or like",
+          "related_functions": ["generate_caption", "write_post"]
+        },
+        "😂": {
+          "meaning": "laughing",
+          "related_functions": ["respond_empathetically", "generate_caption"]
+        },
+        "🤔": {
+          "meaning": "thinking or confused",
+          "related_functions": ["resolve_ambiguity", "answer_question"]
+        },
+        "🎉": {
+          "meaning": "celebration",
+          "related_functions": ["generate_caption", "create_and_share_post"]
+        },
+        "⏰": {
+          "meaning": "schedule or date",
+          "related_functions": ["set_reminder", "predict_next_action"]
+        },
+        "📹": {
+          "meaning": "video",
+          "related_functions": ["trim_video", "edit_and_upload_video"]
+        }
+      },
+      "3a: Thesaurus": {
+        "trim": {
+          "synonyms": ["cut", "shorten", "crop"],
+          "antonyms": ["extend", "lengthen", "expand"]
+        },
+        "set": {
+          "synonyms": ["schedule", "plan", "arrange"],
+          "antonyms": ["cancel", "remove", "delete"]
+        },
+        "generate": {
+          "synonyms": ["create", "produce", "compose"],
+          "antonyms": ["delete", "erase", "destroy"]
+        },
+        "summarize": {
+          "synonyms": ["condense", "abridge", "simplify"],
+          "antonyms": ["expand", "elaborate", "detail"]
+        },
+        "optimize": {
+          "synonyms": ["improve", "enhance", "refine"],
+          "antonyms": ["worsen", "degrade", "impair"]
+        },
+        "detect": {
+          "synonyms": ["identify", "recognize", "sense"],
+          "antonyms": ["ignore", "miss", "overlook"]
+        },
+        "respond": {
+          "synonyms": ["reply", "answer", "react"],
+          "antonyms": ["ignore", "dismiss", "neglect"]
+        },
+        "share": {
+          "synonyms": ["post", "upload", "publish"],
+          "antonyms": ["remove", "delete", "hide"]
+        },
+        "edit": {
+          "synonyms": ["modify", "adjust", "revise"],
+          "antonyms": ["preserve", "keep", "maintain"]
+        },
+        "understand": {
+          "synonyms": ["comprehend", "grasp", "interpret"],
+          "antonyms": ["misunderstand", "ignore", "confuse"]
+        },
+        "resolve": {
+          "synonyms": ["clarify", "solve", "address"],
+          "antonyms": ["complicate", "confuse", "ignore"]
+        },
+        "learn": {
+          "synonyms": ["acquire", "grasp", "master"],
+          "antonyms": ["forget", "unlearn", "ignore"]
+        },
+        "adapt": {
+          "synonyms": ["adjust", "evolve", "modify"],
+          "antonyms": ["resist", "stagnate", "fix"]
+        },
+        "process": {
+          "synonyms": ["handle", "execute", "interpret"],
+          "antonyms": ["ignore", "discard", "skip"]
+        },
+        "convert": {
+          "synonyms": ["transform", "translate", "change"],
+          "antonyms": ["preserve", "keep", "maintain"]
+        },
+        "handle": {
+          "synonyms": ["manage", "address", "deal"],
+          "antonyms": ["ignore", "neglect", "avoid"]
+        },
+        "provide": {
+          "synonyms": ["offer", "give", "supply"],
+          "antonyms": ["withhold", "deny", "remove"]
+        }
+      }
+    },
+    "knowledge_base": {
+      "compression_enabled": true,
+      "compression_method": "gzip",
+      "files": {
+        "commands": {
+          "path": "/knowledge_base/commands.txt",
+          "compressed_path": "/knowledge_base/compressed/commands.txt.gz",
+          "size": 1350,
+          "compressed_size": 450,
+          "last_accessed": 0,
+          "priority": 0.9
+        },
+        "tiktok_terms": {
+          "path": "/knowledge_base/tiktok_terms.txt",
+          "compressed_path": "/knowledge_base/compressed/tiktok_terms.txt.gz",
+          "size": 1200,
+          "compressed_size": 400,
+          "last_accessed": 0,
+          "priority": 0.8
+        },
+        "editorial_optimization": {
+          "path": "/knowledge_base/editorial_optimization.txt",
+          "compressed_path": "/knowledge_base/compressed/editorial_optimization.txt.gz",
+          "size": 1600,
+          "compressed_size": 550,
+          "last_accessed": 0,
+          "priority": 0.85
+        },
+        "content_generation": {
+          "path": "/knowledge_base/content_generation.txt",
+          "compressed_path": "/knowledge_base/compressed/content_generation.txt.gz",
+          "size": 1500,
+          "compressed_size": 500,
+          "last_accessed": 0,
+          "priority": 0.8
+        },
+        "text_analysis": {
+          "path": "/knowledge_base/text_analysis.txt",
+          "compressed_path": "/knowledge_base/compressed/text_analysis.txt.gz",
+          "size": 1500,
+          "compressed_size": 500,
+          "last_accessed": 0,
+          "priority": 0.7
+        },
+        "predictive_terms": {
+          "path": "/knowledge_base/predictive_terms.txt",
+          "compressed_path": "/knowledge_base/compressed/predictive_terms.txt.gz",
+          "size": 1450,
+          "compressed_size": 480,
+          "last_accessed": 0,
+          "priority": 0.75
+        },
+        "sentiment_terms": {
+          "path": "/knowledge_base/sentiment_terms.txt",
+          "compressed_path": "/knowledge_base/compressed/sentiment_terms.txt.gz",
+          "size": 1400,
+          "compressed_size": 470,
+          "last_accessed": 0,
+          "priority": 0.8
+        },
+        "video_terms": {
+          "path": "/knowledge_base/video_terms.txt",
+          "compressed_path": "/knowledge_base/compressed/video_terms.txt.gz",
+          "size": 1500,
+          "compressed_size": 500,
+          "last_accessed": 0,
+          "priority": 0.8
+        },
+        "general_vocabulary": {
+          "path": "/knowledge_base/general_vocabulary.txt",
+          "compressed_path": "/knowledge_base/compressed/general_vocabulary.txt.gz",
+          "size": 1700,
+          "compressed_size": 550,
+          "last_accessed": 0,
+          "priority": 0.95
+        },
+        "code_generation": {
+          "path": "/knowledge_base/code_generation.txt",
+          "compressed_path": "/knowledge_base/compressed/code_generation.txt.gz",
+          "size": 1500,
+          "compressed_size": 500,
+          "last_accessed": 0,
+          "priority": 0.65
+        }
+      }
+    },
+    "cache_files": {
+      "compression_enabled": true,
+      "compression_method": "gzip",
+      "files": {
+        "commands_cache": {
+          "path": "/cache_files/commands_cache.txt",
+          "compressed_path": "/cache_files/compressed/commands_cache.txt.gz",
+          "size": 2700,
+          "compressed_size": 800,
+          "last_accessed": 0,
+          "parent_file": "commands"
+        },
+        "tiktok_terms_cache": {
+          "path": "/cache_files/tiktok_terms_cache.txt",
+          "compressed_path": "/cache_files/compressed/tiktok_terms_cache.txt.gz",
+          "size": 2400,
+          "compressed_size": 750,
+          "last_accessed": 0,
+          "parent_file": "tiktok_terms"
+        },
+        "editorial_optimization_cache": {
+          "path": "/cache_files/editorial_optimization_cache.txt",
+          "compressed_path": "/cache_files/compressed/editorial_optimization_cache.txt.gz",
+          "size": 3200,
+          "compressed_size": 950,
+          "last_accessed": 0,
+          "parent_file": "editorial_optimization"
+        },
+        "content_generation_cache": {
+          "path": "/cache_files/content_generation_cache.txt",
+          "compressed_path": "/cache_files/compressed/content_generation_cache.txt.gz",
+          "size": 3000,
+          "compressed_size": 900,
+          "last_accessed": 0,
+          "parent_file": "content_generation"
+        },
+        "text_analysis_cache": {
+          "path": "/cache_files/text_analysis_cache.txt",
+          "compressed_path": "/cache_files/compressed/text_analysis_cache.txt.gz",
+          "size": 3000,
+          "compressed_size": 900,
+          "last_accessed": 0,
+          "parent_file": "text_analysis"
+        },
+        "predictive_terms_cache": {
+          "path": "/cache_files/predictive_terms_cache.txt",
+          "compressed_path": "/cache_files/compressed/predictive_terms_cache.txt.gz",
+          "size": 2900,
+          "compressed_size": 880,
+          "last_accessed": 0,
+          "parent_file": "predictive_terms"
+        },
+        "sentiment_cache": {
+          "path": "/cache_files/sentiment_cache.txt",
+          "compressed_path": "/cache_files/compressed/sentiment_cache.txt.gz",
+          "size": 2800,
+          "compressed_size": 870

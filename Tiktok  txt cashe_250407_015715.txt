@@ -1,0 +1,40 @@
+# TIKTOK TERM SYNONYMS AND ANTONYMS
+# Variations and opposites for TikTok platform terminology
+
+## Content Types
+"video" → Synonyms: clip, content, upload; Antonyms: image, still, photo
+"duet" → Synonyms: collaboration, side-by-side, joint video; Antonyms: solo, single
+"stitch" → Synonyms: combine, remix, incorporate; Antonyms: separate, standalone
+"live" → Synonyms: livestream, real-time broadcast; Antonyms: recorded, uploaded
+
+## Engagement Metrics
+"like" → Synonyms: heart, favorite, approve; Antonyms: dislike, ignore
+"follow" → Synonyms: subscribe, track; Antonyms: unfollow, block
+"views" → Synonyms: watches, impressions, plays; Antonyms: ignores, skips
+"share" → Synonyms: repost, forward, distribute; Antonyms: keep, withhold
+
+## Trending Elements
+"viral" → Synonyms: trending, popular, hit; Antonyms: flop, ignored, obscure
+"challenge" → Synonyms: trend, contest, task; Antonyms: routine, regular content
+"trending" → Synonyms: popular, viral, hot; Antonyms: declining, fading, unpopular
+"FYP" → Synonyms: For You Page, discover page, recommendation feed
+
+## Features and Effects
+"filter" → Synonyms: effect, overlay, enhancement; Antonyms: original, unedited, raw
+"green screen" → Synonyms: chroma key, background replacement; Antonyms: real background
+"text-to-speech" → Synonyms: voice generation, automated voice; Antonyms: real voice
+
+## Creator Tools
+"monetization" → Synonyms: earning, revenue generation; Antonyms: demonetization, free
+"creator fund" → Synonyms: payment program, creator earnings; Antonyms: unpaid content
+"analytics" → Synonyms: insights, statistics, metrics; Antonyms: guesswork, intuition
+
+## Algorithm Terms
+"recommendation" → Synonyms: suggestion, push, promoted content; Antonyms: hidden, suppressed
+"engagement rate" → Synonyms: interaction percentage, activity ratio; Antonyms: passive consumption
+"watch time" → Synonyms: viewing duration, play length; Antonyms: skip rate, abandonment
+
+## Community Features
+"community guidelines" → Synonyms: platform rules, content policies; Antonyms: unrestricted posting
+"report" → Synonyms: flag, alert, notify; Antonyms: approve, ignore
+"block" → Synonyms: restrict, ban, exclude; Antonyms: allow, permit, unblock

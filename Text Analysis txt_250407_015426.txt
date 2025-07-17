@@ -1,0 +1,122 @@
+# TEXT ANALYSIS
+# Terminology for understanding, processing, and analyzing text
+
+## Analysis Actions
+summarize
+extract
+identify
+determine
+evaluate
+analyze
+assess
+interpret
+compare
+classify
+
+## Analysis Abbreviations
+NLP (Natural Language Processing)
+SEO (Search Engine Optimization)
+KW (Keyword)
+TL;DR (Too Long; Didn't Read)
+SERP (Search Engine Results Page)
+CTR (Click-Through Rate)
+CRO (Conversion Rate Optimization)
+ROI (Return on Investment)
+CTA (Call to Action)
+UX (User Experience)
+
+## Key Components
+key points
+main idea
+thesis
+argument
+evidence
+conclusion
+premise
+assumption
+implication
+perspective
+
+## Text Structure
+introduction
+body
+conclusion
+paragraph
+sentence
+phrase
+clause
+quote
+citation
+reference
+
+## Content Types
+article
+blog post
+essay
+report
+review
+summary
+abstract
+narrative
+description
+explanation
+
+## Analysis Metrics
+length
+readability
+complexity
+clarity
+coherence
+tone
+style
+accuracy
+relevance
+engagement
+
+## Comprehension Levels
+literal
+inferential
+analytical
+evaluative
+critical
+creative
+interpretive
+comprehensive
+surface-level
+deep
+
+## Text Enhancement
+revise
+edit
+proofread
+simplify
+clarify
+organize
+structure
+format
+rewrite
+elaborate
+
+## Common Requests
+summarize this
+extract key points
+identify the main idea
+explain this
+simplify this
+analyze the tone
+find keywords
+highlight important parts
+compare texts
+check for errors
+
+## Text Analysis Emojis
+📝 (writing)
+📊 (analysis)
+🔍 (examine)
+📚 (study)
+🗂️ (organize)
+📋 (list)
+📈 (trend)
+🔑 (key point)
+⚖️ (compare)
+✂️ (extract)

@@ -1,0 +1,65 @@
+# PREDICTIVE TERMS SYNONYMS AND ANTONYMS
+# Variations and alternatives for prediction and suggestion terminology
+
+## Request Indicators
+"suggest" → Synonyms: propose, recommend, advise; Antonyms: discourage, reject; Slang: throw out there; Emoji: 💡
+"recommend" → Synonyms: suggest, advocate, endorse; Antonyms: discourage, warn against; Slang: vouch for; Emoji: 👍
+"predict" → Synonyms: forecast, anticipate, project; Antonyms: recall, remember; Slang: call it; Emoji: 🔮
+"forecast" → Synonyms: predict, project, anticipate; Antonyms: recall, review; Slang: crystal ball; Emoji: 📊
+"anticipate" → Synonyms: expect, foresee, predict; Antonyms: be surprised by, overlook; Slang: see coming; Emoji: 👁️
+
+## Pattern Recognition
+"pattern" → Synonyms: trend, regularity, recurrence; Antonyms: randomness, chaos; Slang: connect the dots; Emoji: 📊
+"trend" → Synonyms: pattern, movement, direction; Antonyms: anomaly, exception; Slang: wave; Emoji: 📈
+"correlation" → Synonyms: connection, relationship, link; Antonyms: independence, disconnect; Slang: dots connect; Emoji: 🔗
+"sequence" → Synonyms: series, progression, succession; Antonyms: randomness, disorder; Slang: chain; Emoji: 📋
+"recurrence" → Synonyms: repetition, reappearance; Antonyms: uniqueness, singularity; Slang: comeback; Emoji: 🔄
+
+## Suggestion Types
+"option" → Synonyms: choice, alternative, possibility; Antonyms: requirement, necessity; Slang: route; Emoji: 🔀
+"alternative" → Synonyms: option, choice, substitute; Antonyms: requirement, necessity; Slang: Plan B; Emoji: 🔄
+"recommendation" → Synonyms: suggestion, proposal, advice; Antonyms: warning, caution; Slang: rec; Emoji: 👍
+"solution" → Synonyms: answer, resolution, fix; Antonyms: problem, issue; Slang: fix; Emoji: 🔧
+"approach" → Synonyms: method, technique, strategy; Antonyms: avoidance, retreat; Slang: angle; Emoji: 🛣️
+
+## Predictive Indicators
+"likely" → Synonyms: probable, expected, anticipated; Antonyms: unlikely, improbable; Slang: good chance; Emoji: 👍
+"probably" → Synonyms: likely, presumably, doubtless; Antonyms: improbably, unlikely; Slang: probs; Emoji: 🎲
+"possibly" → Synonyms: perhaps, maybe, conceivably; Antonyms: impossibly, definitely not; Slang: could be; Emoji: 🤔
+"might" → Synonyms: may, could, possibly will; Antonyms: won't, definitely not; Slang: might just; Emoji: ❓
+"should" → Synonyms: ought to, would be wise to; Antonyms: shouldn't, would be unwise to; Slang: better; Emoji: ✅
+
+## Future-Oriented Terms
+"upcoming" → Synonyms: forthcoming, approaching, coming; Antonyms: past, previous; Slang: on deck; Emoji: 🔜
+"future" → Synonyms: forthcoming, upcoming, prospective; Antonyms: past, previous; Slang: down the road; Emoji: ⏱️
+"next" → Synonyms: following, subsequent, upcoming; Antonyms: previous, preceding; Slang: up next; Emoji: ➡️
+"soon" → Synonyms: shortly, before long, imminently; Antonyms: later, eventually; Slang: in a bit; Emoji: ⏱️
+"eventually" → Synonyms: ultimately, finally, in time; Antonyms: immediately, instantly; Slang: down the line; Emoji: 🔚
+
+## Trend Analysis
+"growing" → Synonyms: increasing, rising, expanding; Antonyms: declining, decreasing; Slang: blowing up; Emoji: 📈
+"declining" → Synonyms: decreasing, dropping, falling; Antonyms: growing, increasing; Slang: tanking; Emoji: 📉
+"emerging" → Synonyms: developing, arising, appearing; Antonyms: disappearing, vanishing; Slang: coming up; Emoji: 🌱
+"accelerating" → Synonyms: speeding up, increasing pace; Antonyms: slowing, decelerating; Slang: picking up steam; Emoji: 🚀
+"stabilizing" → Synonyms: steadying, leveling off; Antonyms: fluctuating, varying; Slang: finding its feet; Emoji: ⚖️
+
+## Confidence Levels
+"certainly" → Synonyms: definitely, undoubtedly, surely; Antonyms: uncertainly, doubtfully; Slang: for sure; Emoji: ✅
+"probably" → Synonyms: likely, in all likelihood; Antonyms: improbably, unlikely; Slang: probs; Emoji: 🎲
+"possibly" → Synonyms: perhaps, maybe, conceivably; Antonyms: impossibly, certainly not; Slang: maybe; Emoji: 🤔
+"doubtful" → Synonyms: questionable, uncertain, dubious; Antonyms: certain, definite; Slang: sketchy; Emoji: ❓
+"unlikely" → Synonyms: improbable, doubtful, not likely; Antonyms: likely, probable; Slang: long shot; Emoji: 👎
+
+## Decision Support
+"help me decide" → Synonyms: assist with choosing, aid my decision; Slang: need input; Emoji: 🤔
+"which is better" → Synonyms: what's the best option, preferred choice; Slang: what wins; Emoji: ⚖️
+"best option" → Synonyms: optimal choice, ideal selection; Slang: best bet; Emoji: 🏆
+"pros and cons" → Synonyms: advantages and disadvantages, benefits and drawbacks; Slang: good bad; Emoji: ⚖️
+"compare options" → Synonyms: evaluate alternatives, weigh choices; Slang: stack up; Emoji: 🔍
+
+## Predictive Questions
+"what will happen if" → Synonyms: what's the outcome of, result of; Slang: what if; Emoji: 🔮
+"when should I" → Synonyms: best time to, optimal timing for; Slang: timing; Emoji: ⏱️
+"what comes next" → Synonyms: subsequent step, following phase; Slang: what's next; Emoji: ➡️
+"how likely is" → Synonyms: probability of, chances of; Slang: odds; Emoji: 🎲
+"what's the forecast" → Synonyms: what's predicted, what's projected; Slang: what's coming; Emoji: 📊

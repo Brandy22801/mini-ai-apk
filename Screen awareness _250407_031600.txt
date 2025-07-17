@@ -1,0 +1,196 @@
+{
+  "screen_awareness": {
+    "enabled": true,
+    "privacy_focused": true,
+    "recognition_methods": {
+      "app_identification": true,
+      "content_type_detection": true,
+      "activity_classification": true,
+      "text_recognition": true,
+      "element_identification": true
+    },
+    "privacy_safeguards": {
+      "no_data_transmission": true,
+      "sensitive_content_filtering": true,
+      "user_control": true,
+      "temporary_processing": true,
+      "excluded_apps": ["banking", "healthcare", "password_managers"]
+    },
+    "contextual_modes": {
+      "browsing": {
+        "enabled": true,
+        "triggers": ["web browser active", "search activity"],
+        "capabilities": ["information enhancement", "related content suggestions"]
+      },
+      "social_media": {
+        "enabled": true,
+        "triggers": ["social app active", "content creation screen"],
+        "capabilities": ["caption suggestions", "hashtag recommendations", "trend awareness"]
+      },
+      "productivity": {
+        "enabled": true,
+        "triggers": ["document editing", "email composition", "note taking"],
+        "capabilities": ["text enhancement", "formatting suggestions", "research assistance"]
+      },
+      "entertainment": {
+        "enabled": true,
+        "triggers": ["video playing", "music active", "game running"],
+        "capabilities": ["related content", "controls assistance", "information lookup"]
+      },
+      "photography": {
+        "enabled": true,
+        "triggers": ["camera active", "photo editing", "gallery viewing"],
+        "capabilities": ["shot suggestions", "editing tips", "organization help"]
+      }
+    }
+  },
+  "contextual_understanding": {
+    "current_context": {
+      "app": null,
+      "activity": null,
+      "content_type": null,
+      "screen_elements": [],
+      "recognized_text": null,
+      "time_in_context": 0
+    },
+    "context_history": {
+      "max_entries": 10,
+      "current_entries": 0,
+      "entries": []
+    },
+    "context_memory": {
+      "short_term": {
+        "duration": 300, // seconds
+        "capacity": 5
+      },
+      "medium_term": {
+        "duration": 3600, // seconds
+        "capacity": 10
+      },
+      "long_term": {
+        "conditions": ["repeated exposure", "explicit save", "high relevance"],
+        "capacity": 50
+      }
+    },
+    "context_processing": {
+      "update_frequency": "on_change",
+      "minimum_update_interval": 1, // seconds
+      "background_processing": true,
+      "priority_when_idle": true
+    }
+  },
+  "context_handlers": {
+    "social_media": {
+      "TikTok": {
+        "screens": {
+          "feed_browsing": {
+            "recognizable_elements": ["video player", "like button", "comment section", "user profile"],
+            "detectable_activities": ["watching", "scrolling", "interaction"],
+            "assistance_capabilities": ["trend identification", "content suggestions", "caption generation"]
+          },
+          "content_creation": {
+            "recognizable_elements": ["record button", "effects panel", "text tool", "post button"],
+            "detectable_activities": ["recording", "editing", "adding text", "adding effects"],
+            "assistance_capabilities": ["effect suggestions", "timing tips", "trend alignment", "caption generation"]
+          },
+          "profile_viewing": {
+            "recognizable_elements": ["follower count", "following count", "video grid", "profile bio"],
+            "detectable_activities": ["viewing statistics", "watching profile videos", "reading bio"],
+            "assistance_capabilities": ["engagement tips", "content strategy suggestions", "profile optimization"]
+          }
+        },
+        "content_awareness": {
+          "hashtag_detection": true,
+          "trend_alignment": true,
+          "content_categorization": true,
+          "audience_analysis": true
+        }
+      },
+      "Instagram": {
+        "screens": {
+          "feed_browsing": {
+            "recognizable_elements": ["photo/video", "like button", "comment section", "user handle"],
+            "detectable_activities": ["viewing", "scrolling", "interaction"],
+            "assistance_capabilities": ["caption suggestions", "hashtag recommendations"]
+          },
+          "story_creation": {
+            "recognizable_elements": ["camera", "text tool", "sticker panel", "drawing tools"],
+            "detectable_activities": ["capturing", "editing", "adding elements"],
+            "assistance_capabilities": ["creative suggestions", "engagement boosters"]
+          }
+        }
+      }
+    },
+    "productivity": {
+      "document_editing": {
+        "screens": {
+          "text_document": {
+            "recognizable_elements": ["text area", "formatting toolbar", "cursor position"],
+            "detectable_activities": ["typing", "formatting", "reviewing"],
+            "assistance_capabilities": ["writing suggestions", "formatting help", "research assistance"]
+          },
+          "spreadsheet": {
+            "recognizable_elements": ["cells", "formula bar", "sheet tabs"],
+            "detectable_activities": ["data entry", "formula creation", "analysis"],
+            "assistance_capabilities": ["formula suggestions", "data analysis tips", "formatting recommendations"]
+          }
+        }
+      },
+      "email": {
+        "screens": {
+          "composition": {
+            "recognizable_elements": ["to field", "subject line", "message body", "send button"],
+            "detectable_activities": ["writing", "addressing", "attaching"],
+            "assistance_capabilities": ["response suggestions", "tone recommendations", "follow-up reminders"]
+          }
+        }
+      }
+    }
+  },
+  "contextual_actions": {
+    "suggestion_generation": {
+      "based_on_screen": true,
+      "based_on_activity": true,
+      "based_on_content": true,
+      "based_on_history": true,
+      "suggestion_threshold": 0.7,
+      "max_suggestions": 3,
+      "presentation_style": "unobtrusive"
+    },
+    "proactive_assistance": {
+      "enabled": true,
+      "intrusiveness_level": "minimal",
+      "trigger_threshold": 0.85,
+      "cooldown_period": 300, // seconds
+      "user_control": true
+    },
+    "response_adaptation": {
+      "context_aware_responses": true,
+      "include_contextual_details": true,
+      "adapt_vocabulary": true,
+      "adapt_complexity": true,
+      "adapt_tone": true
+    }
+  },
+  "ghost_processing": {
+    "screen_capture": {
+      "method": "accessibility_api",
+      "frequency": "on_change",
+      "resolution": "low",
+      "storage_duration": 5, // seconds
+      "processing_location": "on_device_only"
+    },
+    "element_processing": {
+      "method": "element_tree_analysis",
+      "detail_level": "structural",
+      "semantic_understanding": true,
+      "processing_location": "on_device_only"
+    },
+    "ocr_processing": {
+      "enabled": true,
+      "selective_regions": true,
+      "confidence_threshold": 0.8,
+      "processing_location": "on_device_only"
+    }
+  }
+}a

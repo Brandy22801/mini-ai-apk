@@ -1,0 +1,137 @@
+{
+  "MinnieAI": {
+    "version": "1.0",
+    "operation_mode": "offline",
+    "scalability": "Supports plug-ins for different AI models",
+    "extensibility": "Drop-and-play plug-ins for new functionalities",
+    "architecture": {
+      "core": {
+        "cognitive_map": {
+          "algorithm": "subjective perspective proximity = priority retention + (evaluation/decisional) × %subconsciously disregard + subliminal [x] ÷ perspective proximity paradox",
+          "params": {
+            "priority_retention": 0.85,
+            "evaluation_decisional": 0.75,
+            "subconscious_disregard": 0.2,
+            "subliminal_factor": 0.3,
+            "perspective_proximity_paradox": 0.5,
+            "perspective_of_the_subjective": 0.65
+          }
+        },
+        "functions": {
+          "conversational_intelligence": [
+            {
+              "function": "understand_context",
+              "description": "Analyzes the context of user input.",
+              "usage_example": "understand context of 'I'm tired'",
+              "related_functions": ["detect_mood", "respond_empathically"],
+              "category": "1a: Conversational Intelligence"
+            },
+            {
+              "function": "resolve_ambiguity",
+              "description": "Clarifies ambiguous user input.",
+              "usage_example": "resolve ambiguity in 'set it up'",
+              "related_functions": ["detect_intent", "answer_question"],
+              "category": "1a: Conversational Intelligence"
+            }
+          ],
+          "task_automation": [
+            {
+              "function": "set_reminder",
+              "description": "Schedules a reminder.",
+              "usage_example": "set reminder for 10 AM",
+              "related_functions": ["send_message", "predict_next_action"],
+              "category": "1d: Task Automation"
+            }
+          ]
+        }
+      },
+      "knowledge_base": {
+        "compression_enabled": true,
+        "files": {
+          "general_vocabulary": {
+            "path": "/knowledge_base/general_vocabulary.txt",
+            "compressed_path": "/knowledge_base/compressed/general_vocabulary.txt.gz",
+            "priority": 0.95
+          },
+          "content_generation": {
+            "path": "/knowledge_base/content_generation.txt",
+            "compressed_path": "/knowledge_base/compressed/content_generation.txt.gz",
+            "priority": 0.8
+          }
+        },
+        "cache_files": {
+          "general_vocabulary_cache": {
+            "path": "/cache_files/general_vocabulary_cache.txt",
+            "compressed_path": "/cache_files/compressed/general_vocabulary_cache.txt.gz"
+          }
+        }
+      },
+      "modules": {
+        "plugin_manager": {
+          "description": "Manages plugins dynamically.",
+          "methods": [
+            {
+              "name": "load_plugins",
+              "param": "directory",
+              "action": "Scans the specified directory for plug-in manifest files"
+            },
+            {
+              "name": "switch_ai_model",
+              "param": "model_name",
+              "action": "Disables current AI bridge, enables the bridge for the specified model"
+            }
+          ]
+        },
+        "voice_processor": {
+          "functions": [
+            {
+              "name": "process_voice_command",
+              "description": "Processes a voice command and generates a response.",
+              "inputs": ["voice_command"],
+              "outputs": ["text_response", "actionable_event"],
+              "dependencies": ["knowledge_base"]
+            }
+          ]
+        }
+      },
+      "application_interface": {
+        "plug_and_play_interface": {
+          "initialize": {
+            "description": "Initializes MinnieAI in the host system.",
+            "inputs": ["host_environment"],
+            "outputs": ["status"]
+          },
+          "register_with_host": {
+            "description": "Registers MinnieAI with the host system's plug-in manager.",
+            "inputs": ["host_plugin_manager"],
+            "outputs": ["status"]
+          },
+          "send_event_to_host": {
+            "description": "Sends an event to the host system.",
+            "inputs": ["event", "eventId", "eventType", "data", "source_ai"],
+            "outputs": ["status"]
+          },
+          "receive_event_from_host": {
+            "description": "Receives an event from the host system and routes it to MinnieAI modules.",
+            "inputs": ["event", "eventId", "eventType", "data", "target_ai"],
+            "outputs": ["status"]
+          }
+        }
+      },
+      "system_operations": {
+        "execution_modes": ["ghost_process", "foreground"],
+        "file_management": {
+          "max_uncompressed_files": 5,
+          "compression_threshold_idle_time": 300,
+          "auto_compress_low_priority": true
+        },
+        "background_tasks": {
+          "compress_all_inactive": {
+            "trigger": "idle",
+            "interval": 300
+          }
+        }
+      }
+    }
+  }
+}

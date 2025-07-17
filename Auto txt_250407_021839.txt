@@ -1,0 +1,122 @@
+# AUTOMOTIVE MECHANICS
+# Terminology related to vehicle components, maintenance, and repair
+
+## Vehicle Systems
+engine
+transmission
+suspension
+braking
+steering
+electrical
+fuel
+cooling
+exhaust
+drivetrain
+
+## Engine Components
+piston
+cylinder
+crankshaft
+camshaft
+valves
+spark plug
+fuel injector
+timing belt
+oil pump
+alternator
+
+## Fluids and Lubricants
+engine oil
+transmission fluid
+brake fluid
+coolant
+power steering fluid
+windshield washer fluid
+differential fluid
+fuel
+refrigerant
+grease
+
+## Maintenance Tasks
+oil change
+tire rotation
+brake service
+tune-up
+alignment
+filter replacement
+battery testing
+fluid check
+belt inspection
+spark plug replacement
+
+## Common Problems
+check engine light
+overheating
+stalling
+hard starting
+rough idle
+poor acceleration
+brake noise
+steering pull
+transmission slipping
+fluid leak
+
+## Tools and Equipment
+wrench
+socket set
+screwdriver
+pliers
+jack
+jack stands
+OBD scanner
+multimeter
+torque wrench
+impact driver
+
+## Performance Measures
+horsepower
+torque
+MPG
+RPM
+compression ratio
+0-60 time
+stopping distance
+towing capacity
+payload capacity
+ground clearance
+
+## Vehicle Parts
+battery
+alternator
+starter
+radiator
+water pump
+fuel pump
+shock absorber
+CV joint
+tie rod
+catalytic converter
+
+## Warning Signs
+noise
+vibration
+smell
+leak
+smoke
+warning light
+dashboard indicator
+pulling
+reduced power
+unusual handling
+
+## Automotive Emojis
+🚗 (car)
+🔧 (wrench)
+⚙️ (gear)
+🔋 (battery)
+⛽ (fuel)
+🛢️ (oil drum)
+🔨 (hammer)
+💨 (exhaust)
+🔥 (fire/engine)
+🚨 (warning light)

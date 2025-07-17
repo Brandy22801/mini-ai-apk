@@ -1,0 +1,124 @@
+# CONTENT GENERATION
+# Terminology for creating various types of content
+
+## Content Types
+caption
+story
+idea
+post
+video
+reel
+photo
+carousel
+article
+blog
+tweet
+thread
+
+## Content Abbreviations
+IG (Instagram)
+YT (YouTube)
+TT (TikTok)
+FB (Facebook)
+CTA (call to action)
+BTS (behind the scenes)
+GRWM (get ready with me)
+POV (point of view)
+UGC (user-generated content)
+SMM (social media marketing)
+
+## Platform-Specific Slang
+collab
+throwback
+dump
+aesthetic
+vibe check
+fit check
+unboxing
+haul
+storytime
+recap
+
+## Creation Concepts
+brainstorm
+draft
+outline
+storyboard
+script
+concept
+prototype
+mockup
+template
+revision
+
+## Stylistic Elements
+tone
+voice
+style
+mood
+personality
+theme
+aesthetic
+vibe
+feeling
+atmosphere
+
+## Engagement Tactics
+hook
+question
+challenge
+poll
+quiz
+giveaway
+contest
+trend
+collaboration
+call to action
+
+## Narrative Components
+introduction
+setup
+conflict
+resolution
+conclusion
+twist
+climax
+character
+setting
+plot
+
+## Writing Styles
+informative
+persuasive
+entertaining
+educational
+inspirational
+humorous
+serious
+conversational
+formal
+casual
+
+## Content Formats
+listicle
+how-to
+review
+reaction
+tutorial
+guide
+explainer
+interview
+demonstration
+roundup
+
+## Content Emojis
+💡 (idea)
+✍️ (writing)
+📝 (note)
+📊 (data)
+📱 (social media)
+📸 (photo)
+🎬 (video)
+🎯 (goal)
+📢 (announcement)
+🔄 (repost)

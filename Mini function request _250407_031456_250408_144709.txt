@@ -1,0 +1,127 @@
+// Main function to process user requests
+function processUserRequest(userInput) {
+  // Track which knowledge domains might be relevant to this request
+  const relevantDomains = identifyRelevantDomains(userInput);
+  
+  // Ensure relevant files are decompressed and available
+  for (const domain of relevantDomains) {
+    // Decompress the knowledge file if needed
+    accessFile(domain);
+    
+    // Also decompress its cache file
+    accessFile(`${domain}_cache`);
+  }
+  
+  // Process the request using the cognitive map algorithm
+  const response = applyAlgorithm(userInput, relevantDomains);
+  
+  // After processing, compress files that are no longer needed
+  if (this.file_management.auto_compress_low_priority) {
+    setTimeout(compressAllInactive, 10000); // Run after 10 seconds
+  }
+  
+  return response;
+}
+
+// Function to identify which knowledge domains are relevant to a user input
+function identifyRelevantDomains(userInput) {
+  const domains = [];
+  const input = userInput.toLowerCase();
+  
+  // Check for keywords related to each domain
+  // General vocabulary is always relevant
+  domains.push("general_vocabulary");
+  
+  // Check for command-related keywords
+  if (input.includes("turn on") || input.includes("open") || input.includes("start") ||
+      input.includes("activate") || input.includes("set")) {
+    domains.push("commands");
+  }
+  
+  // Check for TikTok-related keywords
+  if (input.includes("tiktok") || input.includes("video") || input.includes("post") ||
+      input.includes("trending") || input.includes("viral")) {
+    domains.push("tiktok_terms");
+  }
+  
+  // Check for video editing keywords
+  if (input.includes("edit") || input.includes("trim") || input.includes("cut") ||
+      input.includes("transition") || input.includes("effect")) {
+    domains.push("editorial_optimization");
+    domains.push("video_terms");
+  }
+  
+  // Check for content creation keywords
+  if (input.includes("create") || input.includes("write") || input.includes("post") ||
+      input.includes("caption") || input.includes("content")) {
+    domains.push("content_generation");
+  }
+  
+  // Check for text analysis keywords
+  if (input.includes("analyze") || input.includes("summarize") || input.includes("extract") ||
+      input.includes("key points") || input.includes("main idea")) {
+    domains.push("text_analysis");
+  }
+  
+  // Check for prediction keywords
+  if (input.includes("predict") || input.includes("suggest") || input.includes("recommend") ||
+      input.includes("what should") || input.includes("will")) {
+    domains.push("predictive_terms");
+  }
+  
+  // Check for emotional keywords
+  if (input.includes("feel") || input.includes("happy") || input.includes("sad") ||
+      input.includes("angry") || input.includes("excited")) {
+    domains.push("sentiment_terms");
+  }
+  
+  // Check for programming keywords
+  if (input.includes("code") || input.includes("program") || input.includes("function") ||
+      input.includes("javascript") || input.includes("python")) {
+    domains.push("code_generation");
+  }
+  
+  // Check for mental health keywords
+  if (input.includes("anxiety") || input.includes("depression") || input.includes("stress") ||
+      input.includes("therapy") || input.includes("mental health")) {
+    domains.push("mental_health_terms");
+  }
+  
+  // Check for first aid keywords
+  if (input.includes("injury") || input.includes("hurt") || input.includes("emergency") ||
+      input.includes("bandage") || input.includes("pain")) {
+    domains.push("first_aid");
+  }
+  
+  // Check for automotive keywords
+  if (input.includes("car") || input.includes("engine") || input.includes("vehicle") ||
+      input.includes("repair") || input.includes("mechanic")) {
+    domains.push("automotive_mechanics");
+  }
+  
+  // Check for cooking keywords
+  if (input.includes("cook") || input.includes("recipe") || input.includes("food") ||
+      input.includes("bake") || input.includes("ingredient")) {
+    domains.push("cooking_culinary");
+  }
+  
+  // Check for travel keywords
+  if (input.includes("travel") || input.includes("trip") || input.includes("flight") ||
+      input.includes("hotel") || input.includes("vacation")) {
+    domains.push("travel_geography");
+  }
+  
+  // Check for financial keywords
+  if (input.includes("money") || input.includes("budget") || input.includes("invest") ||
+      input.includes("finance") || input.includes("save")) {
+    domains.push("personal_finance");
+  }
+  
+  // If no specific domain was identified, use the most common ones
+  if (domains.length === 1) { // Only general_vocabulary
+    domains.push("commands"); // Basic commands are generally useful
+    domains.push("content_generation"); // Helpful for generating responses
+  }
+  
+  return domains;
+}

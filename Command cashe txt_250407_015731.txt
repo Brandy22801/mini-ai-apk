@@ -1,0 +1,47 @@
+# COMMAND SYNONYMS AND ANTONYMS
+# Variations and opposites for device and voice commands
+
+## Device Activation
+"set" → Synonyms: configure, adjust, establish; Antonyms: unset, reset, remove
+"turn on" → Synonyms: switch on, power on, activate; Antonyms: turn off, switch off, deactivate
+"activate" → Synonyms: enable, initiate, trigger; Antonyms: deactivate, disable, stop
+"start" → Synonyms: begin, launch, initiate; Antonyms: stop, end, terminate
+"power up" → Synonyms: boot up, start up; Antonyms: power down, shut down
+
+## Device Deactivation
+"turn off" → Synonyms: switch off, power off, shut down; Antonyms: turn on, switch on, power on
+"deactivate" → Synonyms: disable, stop, halt; Antonyms: activate, enable, start
+"stop" → Synonyms: halt, cease, end; Antonyms: start, begin, continue
+"quit" → Synonyms: exit, close, terminate; Antonyms: start, launch, open
+
+## Application Control
+"open" → Synonyms: launch, start, begin; Antonyms: close, shut, exit
+"close" → Synonyms: exit, quit, shut; Antonyms: open, launch, start
+"minimize" → Synonyms: shrink, reduce; Antonyms: maximize, enlarge
+"maximize" → Synonyms: enlarge, expand; Antonyms: minimize, reduce
+
+## Media Control
+"play" → Synonyms: start, begin, run; Antonyms: pause, stop
+"pause" → Synonyms: halt, suspend; Antonyms: play, resume, continue
+"rewind" → Synonyms: go back, reverse; Antonyms: fast-forward, advance
+"mute" → Synonyms: silence, quiet; Antonyms: unmute, enable sound
+
+## System Settings
+"reminder" → Synonyms: alert, notification; Antonyms: dismiss, cancel
+"alarm" → Synonyms: alert, notification; Antonyms: silence, disable
+"silent mode" → Synonyms: mute, quiet mode; Antonyms: sound mode, ring mode
+
+## Navigation
+"go to" → Synonyms: navigate to, move to; Antonyms: leave, exit from
+"search" → Synonyms: find, look for; Antonyms: hide, conceal
+"back" → Synonyms: return, previous; Antonyms: forward, next
+
+## Input/Output Actions
+"type" → Synonyms: enter, input; Antonyms: delete, remove
+"display" → Synonyms: show, present; Antonyms: hide, conceal
+"show" → Synonyms: display, reveal; Antonyms: hide, conceal
+
+## Communication Controls
+"call" → Synonyms: dial, phone; Antonyms: hang up, end call
+"send" → Synonyms: transmit, dispatch; Antonyms: receive, get
+"reply" → Synonyms: respond, answer; Antonyms: ignore, dismiss

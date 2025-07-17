@@ -1,0 +1,65 @@
+# TEXT ANALYSIS SYNONYMS AND ANTONYMS
+# Variations and alternatives for text analysis terminology
+
+## Analysis Actions
+"summarize" → Synonyms: condense, digest, abbreviate, boil down; Antonyms: expand, elaborate, extend; Slang: nutshell; Emoji: 📋
+"extract" → Synonyms: pull out, isolate, separate; Antonyms: incorporate, insert, include; Slang: pluck; Emoji: ✂️
+"identify" → Synonyms: recognize, detect, spot; Antonyms: overlook, miss, ignore; Slang: pinpoint; Emoji: 🔍
+"evaluate" → Synonyms: assess, appraise, judge; Antonyms: ignore, overlook; Slang: size up; Emoji: ⚖️
+"analyze" → Synonyms: examine, study, investigate; Antonyms: skim, glance; Slang: break down; Emoji: 🔬
+
+## Analysis Abbreviations
+"NLP" → Expansion: Natural Language Processing; Related: language analysis, text understanding
+"TL;DR" → Expansion: Too Long; Didn't Read; Related: summary, brief version; Slang: the short version; Emoji: 📝
+"SEO" → Expansion: Search Engine Optimization; Related: keywords, visibility; Slang: Google juice
+"KW" → Expansion: Keyword; Related: search term, tag; Slang: search bait
+"SERP" → Expansion: Search Engine Results Page; Related: rankings, visibility
+
+## Key Components
+"key points" → Synonyms: main ideas, highlights, essentials; Antonyms: details, minutiae; Slang: takeaways; Emoji: 🔑
+"main idea" → Synonyms: central point, thesis, core concept; Antonyms: detail, tangent; Slang: big picture; Emoji: 🎯
+"thesis" → Synonyms: proposition, argument, claim; Antonyms: evidence, support; Slang: bottom line; Emoji: 📌
+"argument" → Synonyms: case, reasoning, rationale; Antonyms: fact, observation; Slang: take; Emoji: ⚔️
+"conclusion" → Synonyms: inference, deduction, finding; Antonyms: premise, introduction; Slang: bottom line; Emoji: 🏁
+
+## Text Structure
+"introduction" → Synonyms: beginning, opening, preface; Antonyms: conclusion, ending; Slang: intro; Emoji: 🚪
+"body" → Synonyms: main part, main text, content; Antonyms: introduction, conclusion; Slang: meat; Emoji: 📄
+"paragraph" → Synonyms: section, block of text; Antonyms: sentence, phrase; Slang: chunk; Emoji: 📑
+"sentence" → Synonyms: statement, utterance; Antonyms: paragraph, phrase; Slang: line; Emoji: 📝
+"quote" → Synonyms: citation, excerpt, reference; Antonyms: paraphrase, summary; Slang: verbatim; Emoji: 💬
+
+## Content Types
+"article" → Synonyms: piece, story, report; Antonyms: book, novel; Slang: write-up; Emoji: 📰
+"blog post" → Synonyms: entry, article, update; Antonyms: book, novel; Slang: post; Emoji: 💻
+"essay" → Synonyms: paper, composition, dissertation; Antonyms: note, bullet point; Slang: paper; Emoji: 📝
+"report" → Synonyms: account, document, study; Antonyms: opinion, editorial; Slang: write-up; Emoji: 📊
+"summary" → Synonyms: abstract, digest, overview; Antonyms: detailed account, elaboration; Slang: recap; Emoji: 📋
+
+## Analysis Metrics
+"readability" → Synonyms: comprehensibility, clarity; Antonyms: complexity, difficulty; Slang: ease of reading; Emoji: 👓
+"complexity" → Synonyms: intricacy, difficulty, sophistication; Antonyms: simplicity, clarity; Slang: depth; Emoji: 🧩
+"clarity" → Synonyms: clearness, lucidity, comprehensibility; Antonyms: ambiguity, vagueness; Slang: crystal clear; Emoji: 💧
+"coherence" → Synonyms: consistency, logic, flow; Antonyms: incoherence, disconnection; Slang: makes sense; Emoji: 🧵
+"tone" → Synonyms: attitude, voice, manner; Antonyms: content, subject; Slang: vibe; Emoji: 🔊
+
+## Comprehension Levels
+"literal" → Synonyms: exact, precise, actual; Antonyms: figurative, metaphorical; Slang: word for word; Emoji: 📏
+"inferential" → Synonyms: deductive, implied, suggested; Antonyms: explicit, stated; Slang: reading between the lines; Emoji: 🧠
+"analytical" → Synonyms: logical, systematic, methodical; Antonyms: intuitive, emotional; Slang: deep dive; Emoji: 🔬
+"critical" → Synonyms: evaluative, judgmental, discriminating; Antonyms: accepting, uncritical; Slang: tough take; Emoji: 🔪
+"creative" → Synonyms: imaginative, innovative, original; Antonyms: analytical, logical; Slang: outside the box; Emoji: 🎨
+
+## Text Enhancement
+"revise" → Synonyms: edit, amend, modify; Antonyms: leave, accept; Slang: touch up; Emoji: 🔄
+"edit" → Synonyms: revise, correct, alter; Antonyms: accept, approve; Slang: fix up; Emoji: ✏️
+"proofread" → Synonyms: check, review, verify; Antonyms: overlook, ignore; Slang: once-over; Emoji: 🔍
+"simplify" → Synonyms: streamline, reduce, clarify; Antonyms: complicate, elaborate; Slang: dumb down; Emoji: ✂️
+"clarify" → Synonyms: explain, elucidate, illuminate; Antonyms: confuse, complicate; Slang: clear up; Emoji: 💡
+
+## Common Requests
+"summarize this" → Synonyms: give me the gist, condense this; Slang: nutshell this; Emoji: 📋
+"extract key points" → Synonyms: pull out the main ideas, identify highlights; Slang: give me the highlights; Emoji: 🔑
+"identify the main idea" → Synonyms: what's the point, find the core concept; Slang: what's this about; Emoji: 🎯
+"analyze the tone" → Synonyms: evaluate the attitude, assess the mood; Slang: what's the vibe; Emoji: 🔊
+"check for errors" → Synonyms: proofread, find mistakes; Slang: sanity check; Emoji: 🔍

@@ -1,0 +1,122 @@
+# PREDICTIVE TERMS
+# Vocabulary for identifying prediction, suggestion, and pattern recognition requests
+
+## Request Indicators
+suggest
+recommend
+predict
+forecast
+anticipate
+expect
+foresee
+estimate
+project
+advise
+
+## Pattern Recognition
+pattern
+trend
+correlation
+tendency
+progression
+sequence
+regularity
+recurrence
+frequency
+consistency
+
+## Suggestion Types
+option
+alternative
+possibility
+choice
+selection
+recommendation
+proposal
+idea
+solution
+approach
+
+## Predictive Indicators
+likely
+probably
+possibly
+potentially
+presumably
+may
+might
+could
+should
+would
+
+## Future-Oriented Terms
+upcoming
+forthcoming
+imminent
+approaching
+future
+next
+soon
+eventually
+later
+afterward
+
+## Trend Analysis
+growing
+rising
+declining
+increasing
+decreasing
+emerging
+fading
+accelerating
+slowing
+stabilizing
+
+## Confidence Levels
+certainly
+definitely
+probably
+possibly
+maybe
+perhaps
+uncertain
+doubtful
+likely
+unlikely
+
+## Decision Support
+help me decide
+which is better
+what should I
+best option
+optimal choice
+compare options
+pros and cons
+benefits of
+drawbacks of
+advantages of
+
+## Predictive Questions
+what will happen if
+when should I
+how will this affect
+what comes next
+will this work
+is this a good idea
+what are the chances
+how likely is
+what's the outcome
+what's the forecast
+
+## Predictive Emojis
+🔮 (crystal ball)
+📊 (chart)
+📈 (upward trend)
+📉 (downward trend)
+🎯 (target)
+⚖️ (balance)
+🔍 (magnifying glass)
+🧩 (puzzle piece)
+⏱️ (timer)
+🧠 (brain)

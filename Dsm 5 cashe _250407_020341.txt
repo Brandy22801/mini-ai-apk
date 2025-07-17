@@ -1,0 +1,65 @@
+# MENTAL HEALTH SYNONYMS AND ALTERNATIVES
+# Variations and alternatives for mental health terminology
+
+## General Categories
+"disorder" → Synonyms: condition, illness, problem; Preferred: condition; Context: clinical diagnosis
+"symptom" → Synonyms: sign, indication, manifestation; Context: observable experiences; Related: symptomatology
+"diagnosis" → Synonyms: identification, determination, assessment; Related: evaluation, clinical judgment
+"therapy" → Synonyms: treatment, intervention, counseling; Types: CBT, psychotherapy; Emoji: 🧠
+"assessment" → Synonyms: evaluation, examination, testing; Context: professional evaluation; Emoji: 📋
+
+## DSM Classification Areas
+"neurodevelopmental" → Related: ADHD, autism spectrum, learning disorders; Age: often childhood onset
+"schizophrenia" → Related: psychosis, thought disorders; Symptoms: hallucinations, delusions
+"bipolar" → Related: mood disorders, manic-depressive; Characteristics: mood swings, episodes
+"depressive" → Related: major depression, persistent depressive disorder; Symptoms: sadness, low mood
+"anxiety" → Related: fear-based responses, worry; Types: generalized, social, phobias; Emoji: 😰
+
+## Common Disorders
+"depression" → Types: major, persistent; Symptoms: sadness, hopelessness; Alternative terms: clinical depression
+"anxiety" → Types: generalized, social, panic; Symptoms: worry, fear; Related: nervousness; Emoji: 😨
+"ADHD" → Expansion: Attention-Deficit/Hyperactivity Disorder; Symptoms: inattention, hyperactivity
+"autism" → Full term: autism spectrum disorder; Related: ASD, neurodevelopmental; Historical: Asperger's
+"PTSD" → Expansion: Post-Traumatic Stress Disorder; Related: trauma, flashbacks; Context: after trauma
+
+## Symptoms and Experiences
+"stress" → Synonyms: tension, pressure, strain; Related: stressor, distress; Context: response to demands; Emoji: 😫
+"worry" → Synonyms: anxiety, concern, unease; Related: rumination; Context: future-focused; Emoji: 😟
+"sadness" → Synonyms: unhappiness, sorrow, dejection; Related: depression; Context: emotional state; Emoji: 😢
+"panic" → Synonyms: terror, alarm, dread; Related: panic attack; Context: acute anxiety; Emoji: 😱
+"fatigue" → Synonyms: exhaustion, tiredness, weariness; Context: persistent tiredness; Emoji: 😴
+
+## Therapeutic Approaches
+"CBT" → Expansion: Cognitive Behavioral Therapy; Focus: thoughts, behaviors; Evidence: strong support
+"psychotherapy" → Types: talk therapy, counseling; Context: professional treatment; Emoji: 🗣️
+"mindfulness" → Related: present-moment awareness; Techniques: meditation, breathing; Emoji: 🧘
+"counseling" → Synonyms: therapy, guidance, advice; Context: professional support; Emoji: 💬
+"medication" → Types: antidepressants, anxiolytics; Context: prescribed treatment; Emoji: 💊
+
+## Mental States
+"mood" → Synonyms: emotional state, temperament; Context: sustained emotion; Emoji: 😊
+"affect" → Context: observable expression of emotion; Clinical: flat, blunted, appropriate
+"cognition" → Related: thinking, reasoning, memory; Context: mental processes; Emoji: 🧠
+"perception" → Related: sensory processing, interpretation; Context: understanding reality
+"attention" → Related: focus, concentration; Context: mental engagement; Emoji: 👁️
+
+## Psychological Concepts
+"resilience" → Synonyms: hardiness, toughness; Context: ability to recover; Emoji: 💪
+"coping" → Synonyms: managing, dealing with; Context: handling difficulties; Types: adaptive, maladaptive
+"self-esteem" → Synonyms: self-worth, self-regard; Context: personal value perception; Emoji: 💭
+"emotional regulation" → Synonyms: emotion management; Context: control of emotional responses
+"trauma" → Synonyms: psychological injury, emotional wound; Context: distressing experience; Emoji: 💔
+
+## Severity Descriptors
+"mild" → Synonyms: slight, minor, minimal; Context: low impairment; Emoji: 🟢
+"moderate" → Synonyms: medium, intermediate; Context: notable impairment; Emoji: 🟠
+"severe" → Synonyms: serious, intense, grave; Context: significant impairment; Emoji: 🔴
+"acute" → Synonyms: sudden, sharp, intense; Context: rapid onset; Opposite: chronic
+"chronic" → Synonyms: persistent, long-term, ongoing; Context: extended duration; Opposite: acute
+
+## Support Terminology
+"self-care" → Synonyms: self-maintenance, personal wellness; Context: personal health actions; Emoji: 🧖
+"wellness" → Synonyms: well-being, health; Context: overall health state; Emoji: ✨
+"crisis line" → Synonyms: helpline, hotline; Context: emergency mental health support; Emoji: ☎️
+"psychiatrist" → Medical: MD with mental health specialization; Can prescribe: yes; Emoji: 👨‍⚕️
+"therapist" → Types: psychologist, counselor; Context: mental health professional; Emoji: 👩‍⚕️

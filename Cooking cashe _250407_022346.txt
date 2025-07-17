@@ -1,0 +1,65 @@
+# COOKING AND CULINARY SYNONYMS AND ALTERNATIVES
+# Variations and alternatives for culinary terminology
+
+## Cooking Methods
+"bake" → Temperature: 325°F-450°F; Appliance: oven; Context: dry heat; Foods: bread, cookies; Emoji: 🍞
+"roast" → Temperature: 375°F-450°F; Appliance: oven; Context: dry heat; Foods: meat, vegetables; Emoji: 🥩
+"fry" → Types: deep, pan, stir; Context: oil/fat; Temperature: high; Foods: chicken, potatoes; Emoji: 🍳
+"sauté" → Synonyms: pan-fry; Temperature: medium-high; Context: small amount of fat; Emoji: 🍳
+"boil" → Temperature: 212°F/100°C; Context: water bubbling; Foods: pasta, eggs; Emoji: ♨️
+
+## Kitchen Tools
+"knife" → Types: chef's, paring, bread, santoku; Function: cutting; Emoji: 🔪
+"cutting board" → Materials: wood, plastic, bamboo; Function: cutting surface; Emoji: 🪵
+"pan" → Types: frying, sauté, cast iron; Function: stovetop cooking; Emoji: 🍳
+"pot" → Types: stock, sauce, Dutch oven; Function: liquid cooking; Emoji: 🥘
+"blender" → Types: countertop, immersion; Function: puree, blend; Emoji: 🔌
+
+## Ingredient Categories
+"protein" → Examples: meat, fish, beans, tofu; Nutrition: essential macronutrient; Emoji: 🥩
+"vegetable" → Types: leafy, root, cruciferous; Preparation: raw, cooked; Emoji: 🥦
+"fruit" → Types: berries, citrus, tropical; Usage: raw, desserts, preserves; Emoji: 🍎
+"grain" → Examples: rice, wheat, oats, quinoa; Products: flour, bread; Emoji: 🌾
+"dairy" → Examples: milk, cheese, yogurt; Source: animal milk; Emoji: 🥛
+
+## Common Ingredients
+"salt" → Types: table, kosher, sea; Function: seasoning; Chemistry: sodium chloride; Emoji: 🧂
+"pepper" → Types: black, white, cayenne; Function: seasoning, heat; Emoji: 🌶️
+"garlic" → Forms: clove, powder, paste; Flavor: pungent; Family: allium; Emoji: 🧄
+"onion" → Types: yellow, red, white, green; Flavor: aromatic; Family: allium; Emoji: 🧅
+"olive oil" → Types: extra virgin, virgin, light; Use: cooking, dressing; Emoji: 🫒
+
+## Food Preparation
+"chop" → Size: medium pieces; Tool: knife; Similar: dice (smaller); Emoji: 🔪
+"dice" → Size: small cubes; Tool: knife; Precision: uniform size; Emoji: 🔪
+"slice" → Cut: thin flat pieces; Tool: knife; Foods: bread, tomatoes; Emoji: 🔪
+"mince" → Size: very fine; Tool: knife; Foods: garlic, herbs; Emoji: 🔪
+"grate" → Tool: grater; Result: shreds; Foods: cheese, vegetables; Emoji: 🧀
+
+## Cooking Terms
+"al dente" → Origin: Italian; Meaning: firm to bite; Context: pasta; Emoji: 🍝
+"blanch" → Process: brief boiling then ice bath; Purpose: partial cooking; Emoji: ♨️
+"caramelize" → Chemistry: sugars browning; Purpose: flavor; Foods: onions; Emoji: 🍯
+"marinate" → Purpose: flavor, tenderize; Time: hours to days; Emoji: 🥩
+"sear" → Temperature: very high; Purpose: brown exterior; Foods: meat; Emoji: 🔥
+
+## Recipe Components
+"ingredient" → Types: main, secondary; List: recipe beginning; Emoji: 🥕
+"measurement" → Systems: imperial, metric; Tools: cups, spoons, scale; Emoji: 🧮
+"temperature" → Units: F, C; Settings: low, medium, high; Appliance: oven, stove; Emoji: 🌡️
+"serving" → Context: portion size; Calculation: yield divided; Emoji: 🍽️
+"step" → Context: procedure; Format: numbered, sequential; Emoji: 📋
+
+## Meal Types
+"breakfast" → Time: morning; Foods: eggs, cereal, toast; Emoji: 🍳
+"lunch" → Time: midday; Foods: sandwich, salad, soup; Emoji: 🥪
+"dinner" → Time: evening; Synonyms: supper; Courses: multiple possible; Emoji: 🍽️
+"appetizer" → Synonyms: starter, hors d'oeuvre; Timing: before main course; Emoji: 🥟
+"dessert" → Timing: after main course; Types: sweet dishes; Examples: cake, ice cream; Emoji: 🍰
+
+## Dietary Terms
+"vegetarian" → Excludes: meat, fish; Includes: eggs, dairy (typically); Emoji: 🥗
+"vegan" → Excludes: all animal products; Includes: plants only; Emoji: 🌱
+"gluten-free" → Excludes: wheat, barley, rye; Reason: celiac, sensitivity; Emoji: 🌾❌
+"keto" → Focus: high fat, low carb; Purpose: ketosis state; Emoji: 🥓
+"organic" → Definition: no synthetic chemicals; Certification: varies by country; Emoji: 🌿

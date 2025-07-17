@@ -1,0 +1,117 @@
+# SENTIMENT TERMS
+# Vocabulary for understanding emotions and sentiment in content
+
+## Basic Sentiment Categories
+positive
+negative
+neutral
+mixed
+ambiguous
+
+## Positive Emotions
+happy
+joy
+excited
+pleased
+content
+satisfied
+proud
+hopeful
+grateful
+inspired
+
+## Negative Emotions
+sad
+angry
+frustrated
+disappointed
+anxious
+fearful
+upset
+confused
+stressed
+regretful
+
+## Neutral States
+calm
+indifferent
+objective
+balanced
+reserved
+composed
+moderate
+steady
+even-keeled
+impartial
+
+## Intensity Modifiers
+very
+extremely
+slightly
+somewhat
+moderately
+incredibly
+barely
+hardly
+totally
+absolutely
+
+## Emotional Contexts
+personal
+professional
+social
+creative
+academic
+financial
+health-related
+relationship
+achievement
+failure
+
+## Emotional Transitions
+improving
+worsening
+fluctuating
+stable
+changing
+developing
+evolving
+progressing
+regressing
+transforming
+
+## Emotional Expressions
+smile
+laugh
+cry
+frown
+sigh
+scream
+yell
+whisper
+cheer
+groan
+
+## Sentiment-Related Questions
+how do you feel about
+what's your opinion on
+do you like
+are you happy with
+what do you think of
+are you satisfied with
+are you concerned about
+are you excited for
+are you nervous about
+are you disappointed by
+
+## Sentiment Emojis
+😊 (happy)
+😢 (sad)
+😡 (angry)
+😮 (surprised)
+😕 (confused)
+🥰 (loved)
+😔 (disappointed)
+😌 (relieved)
+😤 (frustrated)
+😎 (cool)

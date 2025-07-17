@@ -1,0 +1,122 @@
+# FIRST AID TERMINOLOGY
+# Basic terms and concepts for emergency medical assistance and first aid
+
+## Emergency Terms
+emergency
+urgent
+critical
+911
+ambulance
+paramedic
+EMS
+first responder
+life-threatening
+medical help
+
+## Basic First Aid Actions
+assess
+monitor
+treat
+stabilize
+position
+apply
+clean
+bandage
+immobilize
+transport
+
+## Vital Signs
+pulse
+breathing
+blood pressure
+temperature
+consciousness
+heart rate
+respiratory rate
+oxygen saturation
+pupil response
+skin color
+
+## Injuries
+cut
+burn
+fracture
+sprain
+strain
+bruise
+abrasion
+laceration
+puncture
+concussion
+
+## Medical Conditions
+shock
+choking
+bleeding
+stroke
+heart attack
+seizure
+allergic reaction
+heat exhaustion
+hypothermia
+fainting
+
+## First Aid Supplies
+bandage
+gauze
+tape
+splint
+gloves
+antiseptic
+ice pack
+blanket
+scissors
+tweezers
+
+## Anatomical Areas
+head
+chest
+abdomen
+arm
+leg
+back
+neck
+hand
+foot
+face
+
+## Assessment Terms
+responsive
+unresponsive
+alert
+disoriented
+stable
+unstable
+improving
+worsening
+painful
+swollen
+
+## First Aid Techniques
+CPR
+rescue breathing
+Heimlich maneuver
+recovery position
+direct pressure
+elevation
+compression
+RICE
+wound cleaning
+AED use
+
+## First Aid Emojis
+🚑 (ambulance)
+🩹 (bandage)
+❤️ (heart)
+🩸 (blood)
+💊 (pill)
+🧊 (ice)
+🔥 (fire/burn)
+💉 (injection)
+🦴 (bone)
+🧠 (brain)

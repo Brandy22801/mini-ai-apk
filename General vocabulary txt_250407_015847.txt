@@ -1,0 +1,164 @@
+# GENERAL VOCABULARY
+# Basic terms for general communication and knowledge
+
+## Basic Communication
+yes
+no
+maybe
+please
+thank you
+help
+what
+how
+why
+when
+where
+who
+
+## Time References
+now
+later
+soon
+today
+tomorrow
+yesterday
+morning
+afternoon
+evening
+night
+minute
+hour
+day
+week
+month
+year
+
+## Quantity Terms
+one
+two
+three
+few
+several
+many
+all
+none
+some
+enough
+little
+lot
+more
+less
+increase
+decrease
+
+## Location References
+here
+there
+nearby
+far
+inside
+outside
+above
+below
+front
+back
+left
+right
+center
+edge
+top
+bottom
+
+## Action Verbs
+do
+make
+get
+take
+give
+find
+use
+try
+start
+stop
+go
+come
+see
+look
+hear
+listen
+
+## Descriptive Terms
+good
+bad
+big
+small
+fast
+slow
+hot
+cold
+new
+old
+easy
+hard
+clear
+unclear
+important
+unnecessary
+
+## Connecting Words
+and
+or
+but
+because
+if
+then
+while
+during
+before
+after
+since
+until
+about
+for
+with
+without
+
+## Question Words
+what
+how
+why
+when
+where
+who
+which
+whose
+whom
+whether
+whatever
+however
+
+## Polite Expressions
+please
+thank you
+excuse me
+sorry
+welcome
+hello
+goodbye
+congratulations
+good luck
+well done
+take care
+all the best
+
+## Common Emojis
+👍 (thumbs up)
+👎 (thumbs down)
+😊 (smile)
+😢 (sad)
+❤️ (heart)
+👋 (wave)
+🙏 (thanks)
+🤔 (thinking)
+✅ (check mark)
+❌ (cross mark)

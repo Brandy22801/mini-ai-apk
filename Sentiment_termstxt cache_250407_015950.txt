@@ -1,0 +1,65 @@
+# SENTIMENT SYNONYMS AND ANTONYMS
+# Variations and alternatives for emotion and sentiment terminology
+
+## Basic Sentiment Categories
+"positive" → Synonyms: favorable, good, upbeat; Antonyms: negative, unfavorable; Slang: good vibes; Emoji: 👍
+"negative" → Synonyms: unfavorable, bad, pessimistic; Antonyms: positive, favorable; Slang: bad vibes; Emoji: 👎
+"neutral" → Synonyms: impartial, unbiased, middle ground; Antonyms: biased, partial; Slang: on the fence; Emoji: ⚖️
+"mixed" → Synonyms: ambivalent, conflicted, varied; Antonyms: pure, consistent; Slang: fifty-fifty; Emoji: 🤔
+"ambiguous" → Synonyms: unclear, vague, uncertain; Antonyms: clear, definite; Slang: fuzzy; Emoji: ❓
+
+## Positive Emotions
+"happy" → Synonyms: joyful, cheerful, delighted; Antonyms: sad, unhappy; Slang: stoked; Emoji: 😊
+"excited" → Synonyms: thrilled, enthusiastic, eager; Antonyms: bored, apathetic; Slang: hyped; Emoji: 🤩
+"content" → Synonyms: satisfied, pleased, gratified; Antonyms: discontent, unsatisfied; Slang: good; Emoji: 😌
+"proud" → Synonyms: pleased, satisfied, glorying; Antonyms: ashamed, embarrassed; Slang: pumped; Emoji: 😤
+"grateful" → Synonyms: thankful, appreciative; Antonyms: ungrateful, unappreciative; Slang: blessed; Emoji: 🙏
+
+## Negative Emotions
+"sad" → Synonyms: unhappy, sorrowful, dejected; Antonyms: happy, joyful; Slang: down, blue; Emoji: 😢
+"angry" → Synonyms: mad, furious, enraged; Antonyms: calm, pleased; Slang: pissed; Emoji: 😡
+"frustrated" → Synonyms: annoyed, irritated, exasperated; Antonyms: satisfied, content; Slang: fed up; Emoji: 😤
+"anxious" → Synonyms: worried, nervous, uneasy; Antonyms: calm, relaxed; Slang: stressed; Emoji: 😰
+"fearful" → Synonyms: afraid, scared, terrified; Antonyms: brave, confident; Slang: freaked out; Emoji: 😨
+
+## Neutral States
+"calm" → Synonyms: peaceful, tranquil, serene; Antonyms: agitated, upset; Slang: chilled; Emoji: 😌
+"indifferent" → Synonyms: unconcerned, apathetic, disinterested; Antonyms: interested, concerned; Slang: whatever; Emoji: 🤷
+"objective" → Synonyms: impartial, unbiased, neutral; Antonyms: subjective, biased; Slang: fair; Emoji: ⚖️
+"balanced" → Synonyms: even, stable, steady; Antonyms: unbalanced, unstable; Slang: centered; Emoji: ⚖️
+"reserved" → Synonyms: restrained, reticent, quiet; Antonyms: outgoing, expressive; Slang: holding back; Emoji: 😶
+
+## Intensity Modifiers
+"very" → Synonyms: extremely, highly, exceedingly; Antonyms: slightly, somewhat; Slang: super; Emoji: ❗
+"slightly" → Synonyms: somewhat, a bit, marginally; Antonyms: extremely, very; Slang: kinda; Emoji: 🤏
+"moderately" → Synonyms: fairly, reasonably, somewhat; Antonyms: extremely, vastly; Slang: pretty; Emoji: ➖
+"incredibly" → Synonyms: extremely, exceedingly, remarkably; Antonyms: slightly, barely; Slang: insanely; Emoji: 🔥
+"totally" → Synonyms: completely, entirely, wholly; Antonyms: partially, somewhat; Slang: 100%; Emoji: 💯
+
+## Emotional Contexts
+"personal" → Synonyms: private, individual, intimate; Antonyms: public, general; Slang: my own stuff; Emoji: 🏠
+"social" → Synonyms: communal, interpersonal, public; Antonyms: personal, private; Slang: people stuff; Emoji: 👥
+"creative" → Synonyms: artistic, imaginative, inventive; Antonyms: analytical, logical; Slang: artsy; Emoji: 🎨
+"financial" → Synonyms: monetary, economic, fiscal; Antonyms: non-monetary, emotional; Slang: money stuff; Emoji: 💰
+"relationship" → Synonyms: connection, bond, tie; Antonyms: separation, division; Slang: love life; Emoji: ❤️
+
+## Emotional Transitions
+"improving" → Synonyms: getting better, enhancing; Antonyms: worsening, deteriorating; Slang: looking up; Emoji: 📈
+"worsening" → Synonyms: deteriorating, declining; Antonyms: improving, enhancing; Slang: going downhill; Emoji: 📉
+"fluctuating" → Synonyms: varying, changing, wavering; Antonyms: stable, steady; Slang: up and down; Emoji: 📊
+"stable" → Synonyms: steady, constant, consistent; Antonyms: unstable, fluctuating; Slang: solid; Emoji: ⚓
+"evolving" → Synonyms: developing, progressing, changing; Antonyms: stagnant, static; Slang: growing; Emoji: 🌱
+
+## Emotional Expressions
+"smile" → Synonyms: grin, beam; Antonyms: frown, grimace; Slang: cheese; Emoji: 😊
+"laugh" → Synonyms: chuckle, giggle; Antonyms: cry, sob; Slang: LOL; Emoji: 😂
+"cry" → Synonyms: weep, sob; Antonyms: laugh, chuckle; Slang: tear up; Emoji: 😢
+"frown" → Synonyms: scowl, glower; Antonyms: smile, grin; Slang: mean mug; Emoji: 😠
+"sigh" → Synonyms: exhale, groan; Related: resignation, relief; Slang: ugh; Emoji: 😮‍💨
+
+## Sentiment-Related Questions
+"how do you feel about" → Synonyms: what's your opinion on, thoughts on; Slang: what's your take; Emoji: 🤔
+"do you like" → Synonyms: are you fond of, do you enjoy; Slang: you into; Emoji: 👍
+"are you happy with" → Synonyms: are you satisfied with, content with; Slang: good with; Emoji: 😊
+"what do you think of" → Synonyms: how do you view, opinion on; Slang: your take; Emoji: 💭
+"are you disappointed by" → Synonyms: let down by, discouraged by; Slang: bummed about; Emoji: 😔
