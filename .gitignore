@@ -1,0 +1,26 @@
+# Android build outputs
+/build
+/.gradle
+/captures
+*.apk
+*.ap_
+*.aab
+
+# Local configuration
+local.properties
+
+# IDE files
+.idea/
+*.iml
+
+# ProGuard
+proguard-rules.pro.bak
+
+# Gradle wrapper
+/gradle/wrapper/gradle-wrapper.jar
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
