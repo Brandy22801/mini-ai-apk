@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AndroidApplication name="MiniAIApp" version="1.0" platform="Android">
+    <Components>
+        <PluginManager>
+            <Plugins>
+                <Plugin name="device_data_collector" enabled="true">
+                    <Manifest name="device_data_collector" version="1.0" description="Collects device data (e.g., battery, location)" main="DeviceDataCollectorPlugin"/>
+                </Plugin>
+                <Plugin name="permission_manager" enabled="true">
+                    <Manifest name="permission_manager" version="1.0" description="Manages Android permissions" main="PermissionManagerPlugin"/>
+                </Plugin>
+                <Plugin name="mini_ai_bridge" enabled="true">
+                    <Manifest name="mini_ai_bridge" version="1.0" description="Facilitates communication with Mini AI" main="MiniAIBridgePlugin" ai_model="MiniAI"/>
+                </Plugin>
+            </Plugins>
+        </PluginManager>
+    </Components>
+</AndroidApplication>

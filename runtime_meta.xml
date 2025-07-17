@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<runtimeMeta>
+    <modules>
+        <module name="plugin_manager" enabled="true" />
+        <module name="permission_broker" enabled="true" />
+        <module name="mini_ai_bridge" enabled="true" />
+        <!-- Add more modules/plugins as needed -->
+    </modules>
+    <permissions>
+        <permission name="android.permission.CAMERA" />
+        <permission name="android.permission.RECORD_AUDIO" />
+        <permission name="android.permission.ACCESS_FINE_LOCATION" />
+        <!-- Add more permissions as needed -->
+    </permissions>
+    <!-- Add more dynamic meta-data as needed -->
+</runtimeMeta>
