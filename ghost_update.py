@@ -1,0 +1,255 @@
+import json
+import difflib
+import os
+
+# Simulated in-memory cache
+cache = {}
+
+# Function to load the structured framework
+def load_structure(file_path="framework_with_mini_ai.json"):
+    try:
+        with open(file_path, "r") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        print(f"Structure file {file_path} not found!")
+        return {}
+
+# Function to save the structured framework
+def save_structure(structure, file_path="framework_with_mini_ai.json"):
+    with open(file_path, "w") as file:
+        json.dump(structure, file, indent=4)
+    print(f"Structure saved to {file_path}")
+
+# Function to load the ghost update with error handling
+def load_ghost_update(file_path="ghost_update.txt"):
+    try:
+        with open(file_path, "r") as file:
+            data = json.load(file)
+            for key, value in data.items():
+                if not isinstance(value, dict) or "desc" not in value:
+                    raise ValueError(f"Invalid format in ghost_update.txt for key: {key}")
+            return data
+    except FileNotFoundError:
+        print("Ghost update file not found!")
+        return {}
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"Error loading ghost update: {e}")
+        return {}
+
+# Function to generate synonyms and antonyms using the thesaurus
+def generate_synonyms_antonyms(function_name, description, thesaurus):
+    action = function_name.split("_")[0]
+    if " to " in description:
+        action = description.split(" to ")[-1].split()[0]
+    if action in thesaurus:
+        return thesaurus[action]["synonyms"], thesaurus[action]["antonyms"]
+    return [action], []
+
+# Function to check conceptual similarity between two functions
+def are_conceptually_similar(value1, value2, cache_data, key1, key2):
+    category1 = next((alg["pm"]["category"] for alg in cache_data if alg["aid"] == key1), None)
+    category2 = next((alg["pm"]["category"] for alg in cache_data if alg["aid"] == key2), None)
+    same_category = category1 == category2
+    usage_similarity = difflib.SequenceMatcher(None, value1["usage_example"], value2["usage_example"]).ratio()
+    related_overlap = len(set(value1["related_functions"]) & set(value2["related_functions"])) > 0
+    synonym_match = key2 in cache_data.get(key1, {"synonyms": []})["synonyms"] or key1 in cache_data.get(key2, {"synonyms": []})["synonyms"]
+    matches = sum([same_category, usage_similarity > 0.7, related_overlap, synonym_match])
+    if matches >= 3:
+        return True
+    if value1["description"] == value2["description"] and not same_category:
+        return False
+    return False
+
+# Function to update the cache with synonyms, antonyms, slang, emojis, and frequency
+def update_cache_with_synonyms_antonyms(structure):
+    cache_data = structure["ar"]["cm"]["cache"]
+    thesaurus = structure["ar"]["cm"]["thesaurus"]
+    slang_data = structure["ar"]["cm"]["slang_and_abbreviations"]
+    emoji_data = structure["ar"]["cm"]["emojis"]
+
+    # Collect all functions from algColl
+    knowledge_base = {alg["aid"]: {
+        "description": alg["desc"],
+        "usage_example": alg["pm"]["usage_example"],
+        "related_functions": alg["pm"]["related_functions"],
+        "category": alg["pm"].get("category", "1a: Conversational Intelligence")
+    } for alg in structure["algColl"]["algs"]}
+
+    for function_name, details in knowledge_base.items():
+        description = details["description"]
+        synonyms, antonyms = generate_synonyms_antonyms(function_name, description, thesaurus)
+        unique_synonyms = list(set(synonyms))
+        unique_antonyms = list(set(antonyms))
+        related_slang = []
+        for term, info in slang_data.items():
+            if function_name in info["related_functions"]:
+                related_slang.append({"term": term, "frequency": info.get("frequency", 0)})
+        related_emojis = [emoji for emoji, info in emoji_data.items() if function_name in info["related_functions"]]
+        cache_data[function_name] = {
+            "synonyms": unique_synonyms,
+            "antonyms": unique_antonyms,
+            "description": description,
+            "category": details["category"],
+            "usage_example": details["usage_example"],
+            "related_functions": details["related_functions"],
+            "related_slang": related_slang,
+            "related_emojis": related_emojis
+        }
+    structure["ar"]["cm"]["cache"] = cache_data
+    return structure
+
+# Function to apply the ghost update
+def apply_ghost_update(structure, ghost_update):
+    for key, value in ghost_update.items():
+        category_map = {
+            "understand_context": "1a: Conversational Intelligence",
+            "resolve_ambiguity": "1a: Conversational Intelligence",
+            "process_voice_command": "1a: Conversational Intelligence",
+            "convert_speech_to_text": "1a: Conversational Intelligence",
+            "handle_voice_error": "1a: Conversational Intelligence",
+            "summarize_text": "1a: Conversational Intelligence",
+            "respond_empathically": "1a: Conversational Intelligence",
+            "translate_text": "1a: Conversational Intelligence",
+            "trim_video": "1b: Content Optimization",
+            "edit_and_upload_video": "1b: Content Optimization",
+            "cross_platform_optimize": "1b: Content Optimization",
+            "suggest_hashtags": "1b: Content Optimization",
+            "generate_caption": "1c: Creative Generation",
+            "create_and_share_post": "1c: Creative Generation",
+            "set_reminder": "1d: Task Automation",
+            "send_message": "1d: Task Automation",
+            "play_music": "1d: Task Automation",
+            "set_table": "1e: Home Automation",
+            "learn_new_function": "1f: Self-Adaptation",
+            "adapt_to_user": "1f: Self-Adaptation",
+            "predict_next_action": "1f: Self-Adaptation",
+            "handle_error": "1g: System Management",
+            "offline_fallback": "1g: System Management"
+        }
+        category = category_map.get(key, "1a: Conversational Intelligence")
+        structure["algColl"]["algs"].append({
+            "aid": key,
+            "desc": value["desc"],
+            "pm": {
+                "usage_example": value["usage_example"],
+                "related_functions": value["related_functions"],
+                "category": category
+            }
+        })
+    return structure
+
+# Function to remove redundancies with conceptual awareness
+def remove_redundancies(structure):
+    cache_data = structure["ar"]["cm"]["cache"]
+    knowledge_base = {alg["aid"]: {
+        "description": alg["desc"],
+        "usage_example": alg["pm"]["usage_example"],
+        "related_functions": alg["pm"]["related_functions"]
+    } for alg in structure["algColl"]["algs"]}
+
+    entries = list(knowledge_base.items())
+    to_remove = set()
+
+    for i, (key1, value1) in enumerate(entries):
+        if key1 in to_remove:
+            continue
+        for j, (key2, value2) in enumerate(entries[i+1:]):
+            if are_conceptually_similar(value1, value2, cache_data, key1, key2):
+                desc1 = value1["description"].split(" to ")[-1]
+                desc2 = value2["description"].split(" to ")[-1]
+                combined_description = f"function to {desc1} or {desc2}" if desc1 != desc2 else value1["description"]
+                knowledge_base[key1]["description"] = combined_description
+                usage_similarity = difflib.SequenceMatcher(None, value1["usage_example"], value2["usage_example"]).ratio()
+                knowledge_base[key1]["usage_example"] = value1["usage_example"] if usage_similarity > 0.5 else f"{value1['usage_example']} or {value2['usage_example']}"
+                knowledge_base[key1]["related_functions"] = list(set(value1["related_functions"] + value2["related_functions"]))
+                to_remove.add(key2)
+            elif difflib.SequenceMatcher(None, value1["description"], value2["description"]).ratio() > 0.9:
+                if are_conceptually_similar(value1, value2, cache_data, key1, key2):
+                    desc1 = value1["description"].split(" to ")[-1]
+                    desc2 = value2["description"].split(" to ")[-1]
+                    combined_description = f"function to {desc1} or {desc2}" if desc1 != desc2 else value1["description"]
+                    knowledge_base[key1]["description"] = combined_description
+                    knowledge_base[key1]["usage_example"] = value1["usage_example"] if usage_similarity > 0.5 else f"{value1['usage_example']} or {value2['usage_example']}"
+                    knowledge_base[key1]["related_functions"] = list(set(value1["related_functions"] + value2["related_functions"]))
+                    to_remove.add(key2)
+
+    structure["algColl"]["algs"] = [alg for alg in structure["algColl"]["algs"] if alg["aid"] not in to_remove]
+    return structure
+
+# Function to refresh the system
+def refresh_system(structure):
+    global cache
+    cache.clear()
+    structure = update_cache_with_synonyms_antonyms(structure)
+    save_structure(structure)
+    cache = structure["ar"]["cm"]["cache"]
+    print("System refreshed successfully!")
+
+# Function to check if all files are saved
+def check_files_saved():
+    files = ["framework_with_mini_ai.json", "ghost_update.txt"]
+    for file in files:
+        if not os.path.exists(file):
+            print(f"Warning: {file} does not exist!")
+            return False
+    print("All files are saved successfully!")
+    return True
+
+# Main function to handle the ghost update
+def ghost_update():
+    print("Starting ghost update...")
+
+    # Load the current structure
+    structure = load_structure()
+    print("Current structure (algColl):", structure["algColl"])
+
+    # Load the ghost update
+    ghost_update = load_ghost_update()
+    if not ghost_update:
+        print("No updates to apply.")
+        return
+
+    # Apply the ghost update
+    structure = apply_ghost_update(structure, ghost_update)
+    print("After applying ghost update (algColl):", structure["algColl"])
+
+    # Remove redundancies with conceptual awareness
+    structure = remove_redundancies(structure)
+    print("After removing redundancies (algColl):", structure["algColl"])
+
+    # Save the updated structure
+    save_structure(structure)
+    print("Structure updated and saved.")
+
+    # Refresh the system
+    refresh_system(structure)
+
+    print("Ghost update complete!")
+
+# Example usage
+if __name__ == "__main__":
+    # Ensure the structure file exists
+    if not os.path.exists("framework_with_mini_ai.json"):
+        print("Please ensure framework_with_mini_ai.json exists before running the script.")
+    else:
+        # Simulate an empty ghost update
+        ghost_update_data = {}
+        with open("ghost_update.txt", "w") as file:
+            json.dump(ghost_update_data, file)
+
+        # Run the ghost update to initialize everything
+        ghost_update()
+
+        # Check if all files are saved
+        if check_files_saved():
+            print("All files are ready for packaging!")
+        else:
+            print("Please ensure all files are saved before proceeding.")
+
+        # Command loop for user interaction
+        while True:
+            command = input("Enter command (type 'ghost-update' to update, 'exit' to quit): ")
+            if command == "ghost-update":
+                ghost_update()
+            elif command == "exit":
+                break
