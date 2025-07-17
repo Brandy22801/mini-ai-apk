@@ -1,0 +1,45 @@
+{
+  "coverPage": {
+    "cid": "unique_conversation_identifier",
+    "ts": "timestamp_of_conversation_start",
+    "uid": "unique_user_identifier",
+    "summary": "conversation focused on AI development. JSON framework with Mini AI integration.",
+    "sections": ["conv", "algColl", "meta", "evar"]
+  },
+  "conv": [
+    {
+      "txt": "user's_input_text",
+      "mod": "text/voice/image/etc.",
+      "sent": "positive/negative/neutral",
+      "pfc_input": {
+        "priority_retention": 10,
+        "evaluation_decisregard": 5,
+        "subconscious_disregard": 20,
+        "perspective_proximity_paradox": 1.5
+      },
+      "pfc_output":
+    }
+  ],
+  "ar": [
+    {
+      "txt": "AI's-generated_response",
+      "mod": "text/voice/image/etc.",
+      "alg": "[list_of_algorithms_used_for_analysis]",
+      "cm": {}
+    }
+  ],
+  "algColl": {
+    "algs": [
+      {
+        "aid": "unique_algorithm_identifier",
+        "desc": "description_of_algorithm_functionality",
+        "pm": {}
+      }
+    ]
+  },
+  "instr": [
+    "Append new turns to conv.",
+    "Update cm based on user interactions.",
+    "Trigger new UI or topic change."
+  ]
+}

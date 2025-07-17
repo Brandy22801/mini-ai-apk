@@ -1,0 +1,273 @@
+{
+  "Android_Application": {
+    "name": "MiniAIApp",
+    "version": "1.0",
+    "platform": "Android",
+    "components": {
+      "coverPage": {
+        "cid": "MiniAIHost",
+        "ts": "2025-04-14T12:00:00Z",
+        "uid": "system",
+        "summary": "Android application for Mini AI integration",
+        "sections": ["conv", "algColl", "instr", "meta", "evar"]
+      },
+      "plugin_manager": {
+        "plugins": [
+          {
+            "name": "device_data_collector",
+            "enabled": true,
+            "manifest": {
+              "name": "device_data_collector",
+              "version": "1.0",
+              "description": "Collects device data (e.g., battery, location)",
+              "main": "DeviceDataCollectorPlugin"
+            }
+          },
+          {
+            "name": "permission_manager",
+            "enabled": true,
+            "manifest": {
+              "name": "permission_manager",
+              "version": "1.0",
+              "description": "Manages Android permissions",
+              "main": "PermissionManagerPlugin"
+            }
+          },
+          {
+            "name": "mini_ai_bridge",
+            "enabled": true,
+            "manifest": {
+              "name": "mini_ai_bridge",
+              "version": "1.0",
+              "description": "Facilitates communication with Mini AI",
+              "main": "MiniAIBridgePlugin",
+              "ai_model": "MiniAI"
+            }
+          }
+        ],
+        "methods": [
+          {
+            "name": "load_plugins",
+            "param": "directory",
+            "action": "Scans the specified directory for plug-in manifest files"
+          },
+          {
+            "name": "switch_ai_model",
+            "param": "model_name",
+            "action": "Disables current AI bridge, enables the bridge for the specified model"
+          }
+        ]
+      },
+      "algColl": {
+        "algs": [
+          {
+            "aid": "communication_bridge",
+            "desc": "Handles all communication between Mini AI and the Android application.",
+            "pm": {
+              "moduleType": "communication",
+              "dependencies": []
+            },
+            "algs": [
+              {
+                "aid": "send_event_to_mini_ai",
+                "desc": "Sends an event and its data to Mini AI for processing.",
+                "pm": {
+                  "event": "The full event object being sent.",
+                  "eventId": "The unique identifier of the event.",
+                  "eventType": "The type of the event.",
+                  "data": "A JSON object containing the data associated with the event."
+                },
+                "permission": null
+              },
+              {
+                "aid": "receive_event_from_mini_ai",
+                "desc": "Receives an event from Mini AI and routes it to the appropriate module.",
+                "pm": {
+                  "event": "The full event object received from Mini AI.",
+                  "eventId": "The unique identifier of the event.",
+                  "eventType": "The type of the event.",
+                  "data": "A JSON object containing the data associated with the event."
+                },
+                "permission": null
+              }
+            ]
+          },
+          {
+            "aid": "permission_broker",
+            "desc": "Manages all Android permissions for the application.",
+            "pm": {
+              "moduleType": "permission",
+              "dependencies": []
+            },
+            "algs": [
+              {
+                "aid": "request_permission",
+                "desc": "Requests a specific Android permission from the user.",
+                "pm": {
+                  "permission": "The Android permission string to request."
+                },
+                "permission": "android.permission.REQUEST_PERMISSION"
+              },
+              {
+                "aid": "check_permission",
+                "desc": "Checks if a specific Android permission has been granted.",
+                "pm": {
+                  "permission": "The Android permission string to check."
+                },
+                "permission": null
+              }
+            ]
+          },
+          {
+            "aid": "voice_input_module",
+            "desc": "Captures and processes voice input.",
+            "pm": {
+              "moduleType": "input",
+              "dependencies": []
+            },
+            "algs": [
+              {
+                "aid": "start_listening",
+                "desc": "Starts listening for voice input.",
+                "pm": {
+                  "language": "The language code to use for voice recognition (e.g., en-US).",
+                  "timeout": "The maximum time to listen for voice input, in milliseconds."
+                },
+                "permission": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "aid": "stop_listening",
+                "desc": "Stops listening for voice input.",
+                "pm": {},
+                "permission": null
+              }
+            ]
+          },
+          {
+            "aid": "pop_up_window_module",
+            "desc": "Manages the pop-up window.",
+            "pm": {
+              "moduleType": "display",
+              "dependencies": []
+            },
+            "algs": [
+              {
+                "aid": "show_pop_up",
+                "desc": "Displays a pop-up window.",
+                "pm": {
+                  "content": "The content to display in the pop-up window.",
+                  "x": "The x-coordinate of the pop-up window.",
+                  "y": "The y-coordinate of the pop-up window.",
+                  "width": "The width of the pop-up window.",
+                  "height": "The height of the pop-up window."
+                },
+                "permission": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "aid": "hide_pop_up",
+                "desc": "Hides the pop-up window.",
+                "pm": {},
+                "permission": null
+              }
+            ]
+          },
+          {
+            "aid": "background_service",
+            "desc": "Keeps the application running in the background.",
+            "pm": {
+              "moduleType": "system",
+              "dependencies": []
+            },
+            "algs": [
+              {
+                "aid": "start_service",
+                "desc": "Starts the application background service.",
+                "pm": {
+                  "serviceName": "The name of the background service to start."
+                },
+                "permission": null
+              },
+              {
+                "aid": "stop_service",
+                "desc": "Stops the application background service.",
+                "pm": {
+                  "serviceName": "The name of the background service to stop."
+                },
+                "permission": null
+              }
+            ]
+          }
+        ]
+      },
+      "conv": [],
+      "instr": [
+        "Load plug-ins via plugin_manager at startup",
+        {
+          "aid": "collect_device_data",
+          "desc": "Periodically collects device data and sends it to Mini AI",
+          "pm": {
+            "frequency": "Every 5 minutes",
+            "action": "Call collect_device_data module",
+            "nextEvent": "device_data_update"
+          }
+        },
+        {
+          "aid": "handle_mini_ai_event",
+          "desc": "Receives an event from Mini AI, determines its destination, and calls the appropriate function in another module.",
+          "pm": {
+            "eventType": "The type of the Mini AI event.",
+            "event": "The Mini AI event.",
+            "nextEvent": "The next event to call after this."
+          }
+        },
+        {
+          "aid": "voice_input",
+          "desc": "An event indicating that voice input has been received.",
+          "pm": {
+            "eventType": "The type of the event, which will be `voice_input`.",
+            "data": "The transcribed voice input data.",
+            "sourceModule": "The module that triggered the event, `voice_input_module`.",
+            "destinationModule": "The module that the event is intended for."
+          }
+        },
+        {
+          "aid": "permission_request",
+          "desc": "An event indicating that a permission is being requested.",
+          "pm": {
+            "eventType": "The type of the event, which will be `permission_request`.",
+            "data": "The permission being requested.",
+            "sourceModule": "The module that triggered the event, `permission_broker`.",
+            "destinationModule": "The module that the event is intended for."
+          }
+        }
+      ],
+      "meta": {
+        "settings": {
+          "userSettings": {
+            "setting1": "setting_value_description",
+            "setting2": "setting_value_description"
+          },
+          "communicationSettings": {
+            "port": "communication_port_number",
+            "protocol": "communication_protocol_used"
+          },
+          "permissionSettings": [
+            "android.permission.CAMERA",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.RECORD_AUDIO",
+            "android.permission.SYSTEM_ALERT_WINDOW"
+          ],
+          "displaySettings": {
+            "resolution": "display_resolution_info",
+            "refreshRate": "display_refresh_rate_info"
+          }
+        }
+      },
+      "evar": {}
+    },
+    "system_properties": {
+      "scalability": "Supports plug-ins for different AI models",
+      "extensibility": "Drop-and-play plug-ins for new functionalities"
+    }
+  }
+}
